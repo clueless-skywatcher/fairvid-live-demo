@@ -1,0 +1,38 @@
+{
+  "applicant_id": "31_31",
+  "name": "Ife Dube",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2024,
+  "gpa": 3.18,
+  "grades": [
+    {
+      "subject": "Water Resources",
+      "grade": "A"
+    },
+    {
+      "subject": "Waste Management",
+      "grade": "A-"
+    },
+    {
+      "subject": "Hydrology",
+      "grade": "A-"
+    },
+    {
+      "subject": "Sustainability Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Environmental Policy",
+      "grade": "A-"
+    },
+    {
+      "subject": "Renewable Energy",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/31_31/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/31_31/documents_image/transcript.png"
+  }
+}

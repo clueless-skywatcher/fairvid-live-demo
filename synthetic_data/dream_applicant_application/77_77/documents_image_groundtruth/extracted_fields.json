@@ -1,0 +1,38 @@
+{
+  "applicant_id": "77_77",
+  "name": "Kwame Sow",
+  "institution": "Cordoba Polytechnic",
+  "study_program": "Biomedical Engineering",
+  "graduation_year": 2025,
+  "gpa": 2.25,
+  "grades": [
+    {
+      "subject": "Human Physiology",
+      "grade": "B+"
+    },
+    {
+      "subject": "Biomechanics",
+      "grade": "B"
+    },
+    {
+      "subject": "Bioethics",
+      "grade": "B-"
+    },
+    {
+      "subject": "Signal Processing",
+      "grade": "B+"
+    },
+    {
+      "subject": "Tissue Engineering",
+      "grade": "B+"
+    },
+    {
+      "subject": "Medical Imaging",
+      "grade": "B"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/77_77/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/77_77/documents_image/transcript.png"
+  }
+}

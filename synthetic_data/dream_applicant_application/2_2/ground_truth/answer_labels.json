@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "Explain the difference between a microcontroller and a microprocessor.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 175,
+    "transcript_file": "0_explain_the_difference_between_a_microcontroller_a.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "Can you explain the significance of bandgap in semiconductor materials?",
+    "tier": "off_topic",
+    "expected_score_low": 18,
+    "expected_score_high": 52,
+    "is_ai_scripted": false,
+    "word_count": 147,
+    "transcript_file": "5_can_you_explain_the_significance_of_bandgap_in_sem.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "How do communication protocols like SPI and I2C differ in application?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 160,
+    "transcript_file": "7_how_do_communication_protocols_like_spi_and_i2c_di.txt"
+  }
+]

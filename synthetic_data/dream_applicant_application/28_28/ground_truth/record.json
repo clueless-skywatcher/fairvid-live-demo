@@ -1,0 +1,21 @@
+{
+  "applicant_id": "28_28",
+  "name": "Amara Mensah",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec",
+  "gender": "female",
+  "region": "region_d",
+  "age": 23,
+  "gpa": 2.99,
+  "test_score": 68.08,
+  "test_score_true": 80.08,
+  "english_score": 5.3,
+  "work_experience_years": 7.6,
+  "merit_score": 78.08,
+  "admit": true,
+  "answer_tiers": {
+    "2": "weak",
+    "4": "strong",
+    "5": "weak"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "What strategies would you propose for effective solid waste management in a dense urban area?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 273,
+    "transcript_file": "0_what_strategies_would_you_propose_for_effective_so.txt"
+  },
+  {
+    "question_index": 2,
+    "question": "How does climate change impact water resource management in your region?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 224,
+    "transcript_file": "2_how_does_climate_change_impact_water_resource_mana.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "How would you assess the environmental impact of a new construction project?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 301,
+    "transcript_file": "5_how_would_you_assess_the_environmental_impact_of_a.txt"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "54_54",
+  "name": "Mia Davis",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 35,
+  "gpa": 2.39,
+  "test_score": 58.83,
+  "test_score_true": 58.83,
+  "english_score": 7.5,
+  "work_experience_years": 2.9,
+  "merit_score": 56.77,
+  "admit": false,
+  "answer_tiers": {
+    "0": "strong",
+    "2": "weak",
+    "3": "strong"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "55_55",
+  "name": "Ethan Smith",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "male",
+  "region": "region_b",
+  "age": 33,
+  "gpa": 3.67,
+  "test_score": 65.4,
+  "test_score_true": 65.4,
+  "english_score": 6.5,
+  "work_experience_years": 0.5,
+  "merit_score": 73.9,
+  "admit": true,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "3": "strong",
+    "4": "weak"
+  }
+}

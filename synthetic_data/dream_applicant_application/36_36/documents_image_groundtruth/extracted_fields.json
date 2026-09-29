@@ -1,0 +1,38 @@
+{
+  "applicant_id": "36_36",
+  "name": "Tendai Okafor",
+  "institution": "Meridian State University",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2025,
+  "gpa": 2.93,
+  "grades": [
+    {
+      "subject": "Flight Mechanics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "B+"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Fluid Dynamics",
+      "grade": "A"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "A"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/36_36/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/36_36/documents_image/transcript.png"
+  }
+}

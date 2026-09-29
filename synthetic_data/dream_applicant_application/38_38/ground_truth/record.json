@@ -1,0 +1,21 @@
+{
+  "applicant_id": "38_38",
+  "name": "Lucas Brown",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "female",
+  "region": "region_b",
+  "age": 34,
+  "gpa": 3.59,
+  "test_score": 74.01,
+  "test_score_true": 74.01,
+  "english_score": 6.8,
+  "work_experience_years": 0.2,
+  "merit_score": 66.7,
+  "admit": true,
+  "answer_tiers": {
+    "1": "strong",
+    "2": "weak",
+    "7": "weak"
+  }
+}

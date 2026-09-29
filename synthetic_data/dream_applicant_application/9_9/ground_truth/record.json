@@ -1,0 +1,21 @@
+{
+  "applicant_id": "9_9",
+  "name": "Rohan Sharma",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "male",
+  "region": "region_a",
+  "age": 38,
+  "gpa": 2.34,
+  "test_score": 60.46,
+  "test_score_true": 60.46,
+  "english_score": 7.4,
+  "work_experience_years": 2.0,
+  "merit_score": 58.83,
+  "admit": false,
+  "answer_tiers": {
+    "3": "weak",
+    "4": "off_topic",
+    "7": "strong"
+  }
+}

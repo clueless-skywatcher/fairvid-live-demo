@@ -1,0 +1,38 @@
+{
+  "applicant_id": "34_34",
+  "name": "Feng Zhang",
+  "institution": "Meridian State University",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2023,
+  "gpa": 2.41,
+  "grades": [
+    {
+      "subject": "Hydrology",
+      "grade": "B+"
+    },
+    {
+      "subject": "Renewable Energy",
+      "grade": "A-"
+    },
+    {
+      "subject": "Waste Management",
+      "grade": "B+"
+    },
+    {
+      "subject": "Water Resources",
+      "grade": "B+"
+    },
+    {
+      "subject": "Sustainability Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "B"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/34_34/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/34_34/documents_image/transcript.png"
+  }
+}

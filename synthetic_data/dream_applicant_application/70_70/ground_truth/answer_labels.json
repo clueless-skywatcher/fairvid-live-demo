@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "Describe a specific medical device that you believe needs significant improvement and how you would approach it.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 266,
+    "transcript_file": "0_describe_a_specific_medical_device_that_you_believ.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "How do you plan to handle the ethical considerations involved in genetic engineering or human trials?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 267,
+    "transcript_file": "5_how_do_you_plan_to_handle_the_ethical_consideratio.txt"
+  },
+  {
+    "question_index": 6,
+    "question": "What programming languages or software tools have you used for biological data analysis?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 121,
+    "transcript_file": "6_what_programming_languages_or_software_tools_have_.txt"
+  }
+]

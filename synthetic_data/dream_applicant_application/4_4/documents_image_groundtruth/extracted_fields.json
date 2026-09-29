@@ -1,0 +1,38 @@
+{
+  "applicant_id": "4_4",
+  "name": "Emma Brown",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Biomedical Engineering",
+  "graduation_year": 2023,
+  "gpa": 3.07,
+  "grades": [
+    {
+      "subject": "Biomechanics",
+      "grade": "A"
+    },
+    {
+      "subject": "Bioethics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Tissue Engineering",
+      "grade": "A-"
+    },
+    {
+      "subject": "Biostatistics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Signal Processing",
+      "grade": "A"
+    },
+    {
+      "subject": "Medical Imaging",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/4_4/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/4_4/documents_image/transcript.png"
+  }
+}

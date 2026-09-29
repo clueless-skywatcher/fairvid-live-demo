@@ -1,0 +1,21 @@
+{
+  "applicant_id": "76_76",
+  "name": "Emma Clark",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 38,
+  "gpa": 3.5,
+  "test_score": 72.81,
+  "test_score_true": 72.81,
+  "english_score": 5.4,
+  "work_experience_years": 1.5,
+  "merit_score": 67.1,
+  "admit": true,
+  "answer_tiers": {
+    "1": "strong",
+    "2": "weak",
+    "3": "strong"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 1,
+    "question": "Explain the concept of Life Cycle Assessment (LCA) and its importance.",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 147,
+    "transcript_file": "1_explain_the_concept_of_life_cycle_assessment_lca_a.txt"
+  },
+  {
+    "question_index": 2,
+    "question": "How does climate change impact water resource management in your region?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 256,
+    "transcript_file": "2_how_does_climate_change_impact_water_resource_mana.txt"
+  },
+  {
+    "question_index": 4,
+    "question": "Discuss the economic implications of transitioning to renewable energy sources.",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 247,
+    "transcript_file": "4_discuss_the_economic_implications_of_transitioning.txt"
+  }
+]

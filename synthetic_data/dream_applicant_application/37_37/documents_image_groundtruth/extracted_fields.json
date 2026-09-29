@@ -1,0 +1,38 @@
+{
+  "applicant_id": "37_37",
+  "name": "Sefu Mensah",
+  "institution": "Lakeside University of Applied Sciences",
+  "study_program": "Electronics Engineering",
+  "graduation_year": 2022,
+  "gpa": 3.19,
+  "grades": [
+    {
+      "subject": "Embedded Systems",
+      "grade": "A"
+    },
+    {
+      "subject": "Semiconductor Physics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Analog Circuits",
+      "grade": "A-"
+    },
+    {
+      "subject": "Digital Logic",
+      "grade": "B+"
+    },
+    {
+      "subject": "Microprocessors",
+      "grade": "B+"
+    },
+    {
+      "subject": "VLSI Design",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/37_37/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/37_37/documents_image/transcript.png"
+  }
+}

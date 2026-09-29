@@ -1,0 +1,21 @@
+{
+  "applicant_id": "57_57",
+  "name": "Feng Chen",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "male",
+  "region": "region_c",
+  "age": 31,
+  "gpa": 2.48,
+  "test_score": 63.98,
+  "test_score_true": 63.98,
+  "english_score": 6.4,
+  "work_experience_years": 1.3,
+  "merit_score": 56.79,
+  "admit": false,
+  "answer_tiers": {
+    "1": "ai_scripted",
+    "4": "strong",
+    "7": "ai_scripted"
+  }
+}

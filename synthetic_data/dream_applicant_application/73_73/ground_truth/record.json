@@ -1,0 +1,21 @@
+{
+  "applicant_id": "73_73",
+  "name": "Emma Brown",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 38,
+  "gpa": 2.87,
+  "test_score": 63.37,
+  "test_score_true": 63.37,
+  "english_score": 6.9,
+  "work_experience_years": 1.7,
+  "merit_score": 63.86,
+  "admit": true,
+  "answer_tiers": {
+    "1": "strong",
+    "2": "ai_scripted",
+    "4": "ai_scripted"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "71_71",
+  "name": "Ife Dube",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "female",
+  "region": "region_d",
+  "age": 32,
+  "gpa": 2.73,
+  "test_score": 60.81,
+  "test_score_true": 72.81,
+  "english_score": 6.8,
+  "work_experience_years": 0.8,
+  "merit_score": 63.19,
+  "admit": false,
+  "answer_tiers": {
+    "3": "ai_scripted",
+    "4": "strong",
+    "5": "strong"
+  }
+}

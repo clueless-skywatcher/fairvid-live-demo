@@ -1,0 +1,38 @@
+{
+  "applicant_id": "49_49",
+  "name": "Naila Sow",
+  "institution": "Meridian State University",
+  "study_program": "Biomedical Engineering",
+  "graduation_year": 2022,
+  "gpa": 2.3,
+  "grades": [
+    {
+      "subject": "Medical Imaging",
+      "grade": "B"
+    },
+    {
+      "subject": "Biomechanics",
+      "grade": "B"
+    },
+    {
+      "subject": "Biomaterials",
+      "grade": "A-"
+    },
+    {
+      "subject": "Signal Processing",
+      "grade": "B"
+    },
+    {
+      "subject": "Bioethics",
+      "grade": "B"
+    },
+    {
+      "subject": "Human Physiology",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/49_49/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/49_49/documents_image/transcript.png"
+  }
+}

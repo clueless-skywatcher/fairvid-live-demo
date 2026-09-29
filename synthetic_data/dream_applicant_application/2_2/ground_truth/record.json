@@ -1,0 +1,21 @@
+{
+  "applicant_id": "2_2",
+  "name": "Xia Huang",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "male",
+  "region": "region_c",
+  "age": 30,
+  "gpa": 2.77,
+  "test_score": 47.19,
+  "test_score_true": 47.19,
+  "english_score": 5.6,
+  "work_experience_years": 0.3,
+  "merit_score": 49.87,
+  "admit": false,
+  "answer_tiers": {
+    "0": "weak",
+    "5": "off_topic",
+    "7": "weak"
+  }
+}

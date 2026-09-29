@@ -1,0 +1,21 @@
+{
+  "applicant_id": "40_40",
+  "name": "Vihaan Nair",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "female",
+  "region": "region_a",
+  "age": 36,
+  "gpa": 3.03,
+  "test_score": 88.14,
+  "test_score_true": 88.14,
+  "english_score": 7.3,
+  "work_experience_years": 0.9,
+  "merit_score": 70.32,
+  "admit": true,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "1": "ai_scripted",
+    "4": "weak"
+  }
+}

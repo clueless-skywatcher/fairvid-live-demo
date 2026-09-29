@@ -1,0 +1,21 @@
+{
+  "applicant_id": "43_43",
+  "name": "Ife Banda",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "male",
+  "region": "region_d",
+  "age": 37,
+  "gpa": 3.29,
+  "test_score": 76.29,
+  "test_score_true": 88.29,
+  "english_score": 6.5,
+  "work_experience_years": 3.3,
+  "merit_score": 78.98,
+  "admit": true,
+  "answer_tiers": {
+    "1": "ai_scripted",
+    "2": "strong",
+    "3": "strong"
+  }
+}

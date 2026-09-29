@@ -1,0 +1,21 @@
+{
+  "applicant_id": "60_60",
+  "name": "Lucas Clark",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "male",
+  "region": "region_b",
+  "age": 22,
+  "gpa": 2.92,
+  "test_score": 77.24,
+  "test_score_true": 77.24,
+  "english_score": 6.8,
+  "work_experience_years": 1.0,
+  "merit_score": 66.23,
+  "admit": true,
+  "answer_tiers": {
+    "0": "weak",
+    "1": "weak",
+    "3": "ai_scripted"
+  }
+}

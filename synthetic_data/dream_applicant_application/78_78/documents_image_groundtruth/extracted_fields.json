@@ -1,0 +1,38 @@
+{
+  "applicant_id": "78_78",
+  "name": "Zola Banda",
+  "institution": "Aurelia Technical University",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2022,
+  "gpa": 2.95,
+  "grades": [
+    {
+      "subject": "Propulsion Systems",
+      "grade": "B+"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "A"
+    },
+    {
+      "subject": "Fluid Dynamics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "A-"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Control Systems",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/78_78/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/78_78/documents_image/transcript.png"
+  }
+}

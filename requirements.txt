@@ -1,0 +1,11 @@
+# Everything the live demo web app needs.
+flask
+numpy
+Pillow                  # renders the pre-loaded candidate's diploma/transcript
+scikit-learn            # the interpretable scoring model (verdict)
+shap                    # feature-contribution explanations (closed-form fallback if absent)
+imageio-ffmpeg          # bundles an ffmpeg binary (no system install / sudo)
+opencv-python-headless  # video decode + middle-frame extraction
+faster-whisper          # speech-to-text (downloads the "base" model on first use)
+mediapipe               # facial-behaviour metrics
+ollama                  # optional: real Gemma frame descriptions (offline fallback otherwise)

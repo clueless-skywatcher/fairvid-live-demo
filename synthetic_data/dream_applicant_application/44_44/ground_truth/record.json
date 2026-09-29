@@ -1,0 +1,21 @@
+{
+  "applicant_id": "44_44",
+  "name": "Ife Okafor",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "female",
+  "region": "region_d",
+  "age": 29,
+  "gpa": 4.0,
+  "test_score": 54.9,
+  "test_score_true": 66.9,
+  "english_score": 6.6,
+  "work_experience_years": 0.5,
+  "merit_score": 70.38,
+  "admit": true,
+  "answer_tiers": {
+    "3": "ai_scripted",
+    "6": "strong",
+    "7": "weak"
+  }
+}

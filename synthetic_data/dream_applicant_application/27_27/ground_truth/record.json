@@ -1,0 +1,21 @@
+{
+  "applicant_id": "27_27",
+  "name": "Rohan Nair",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "nonbinary",
+  "region": "region_a",
+  "age": 31,
+  "gpa": 3.25,
+  "test_score": 80.48,
+  "test_score_true": 80.48,
+  "english_score": 8.5,
+  "work_experience_years": 1.5,
+  "merit_score": 71.68,
+  "admit": true,
+  "answer_tiers": {
+    "0": "weak",
+    "2": "ai_scripted",
+    "4": "ai_scripted"
+  }
+}

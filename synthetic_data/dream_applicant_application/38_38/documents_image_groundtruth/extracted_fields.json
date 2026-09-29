@@ -1,0 +1,38 @@
+{
+  "applicant_id": "38_38",
+  "name": "Lucas Brown",
+  "institution": "Aurelia Technical University",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2025,
+  "gpa": 3.59,
+  "grades": [
+    {
+      "subject": "Renewable Energy",
+      "grade": "A"
+    },
+    {
+      "subject": "Waste Management",
+      "grade": "A"
+    },
+    {
+      "subject": "Hydrology",
+      "grade": "A"
+    },
+    {
+      "subject": "Environmental Policy",
+      "grade": "A-"
+    },
+    {
+      "subject": "Environmental Chemistry",
+      "grade": "A-"
+    },
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/38_38/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/38_38/documents_image/transcript.png"
+  }
+}

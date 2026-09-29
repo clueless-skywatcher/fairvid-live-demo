@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 2,
+    "question": "Explain the concept of tissue engineering to someone without a medical background.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 179,
+    "transcript_file": "2_explain_the_concept_of_tissue_engineering_to_someo.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "How do you plan to handle the ethical considerations involved in genetic engineering or human trials?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 235,
+    "transcript_file": "5_how_do_you_plan_to_handle_the_ethical_consideratio.txt"
+  },
+  {
+    "question_index": 6,
+    "question": "What programming languages or software tools have you used for biological data analysis?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 110,
+    "transcript_file": "6_what_programming_languages_or_software_tools_have_.txt"
+  }
+]

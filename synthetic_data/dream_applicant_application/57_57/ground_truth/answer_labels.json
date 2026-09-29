@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 1,
+    "question": "Discuss the primary challenges in developing sustainable aviation fuels.",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 226,
+    "transcript_file": "1_discuss_the_primary_challenges_in_developing_susta.txt"
+  },
+  {
+    "question_index": 4,
+    "question": "How would you approach the thermal management of a satellite in orbit?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 271,
+    "transcript_file": "4_how_would_you_approach_the_thermal_management_of_a.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "How do computational fluid dynamics (CFD) simulations compare to wind tunnel testing?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 254,
+    "transcript_file": "7_how_do_computational_fluid_dynamics_cfd_simulation.txt"
+  }
+]

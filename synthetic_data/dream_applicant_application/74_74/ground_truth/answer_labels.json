@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 1,
+    "question": "How would you design a wearable device for monitoring heart health?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 350,
+    "transcript_file": "1_how_would_you_design_a_wearable_device_for_monitor.txt"
+  },
+  {
+    "question_index": 3,
+    "question": "Explain the physics behind Ultrasound imaging.",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 144,
+    "transcript_file": "3_explain_the_physics_behind_ultrasound_imaging.txt"
+  },
+  {
+    "question_index": 4,
+    "question": "How do strict regulations affect innovation in biomedical engineering?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 274,
+    "transcript_file": "4_how_do_strict_regulations_affect_innovation_in_bio.txt"
+  }
+]

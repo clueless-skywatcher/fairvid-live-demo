@@ -1,0 +1,21 @@
+{
+  "applicant_id": "65_65",
+  "name": "Olivia Davis",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 33,
+  "gpa": 2.22,
+  "test_score": 57.86,
+  "test_score_true": 57.86,
+  "english_score": 5.6,
+  "work_experience_years": 0.8,
+  "merit_score": 53.72,
+  "admit": false,
+  "answer_tiers": {
+    "4": "weak",
+    "6": "ai_scripted",
+    "7": "ai_scripted"
+  }
+}

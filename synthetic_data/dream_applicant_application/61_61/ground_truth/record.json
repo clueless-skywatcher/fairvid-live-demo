@@ -1,0 +1,21 @@
+{
+  "applicant_id": "61_61",
+  "name": "Feng Liu",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "female",
+  "region": "region_c",
+  "age": 27,
+  "gpa": 2.55,
+  "test_score": 69.53,
+  "test_score_true": 69.53,
+  "english_score": 5.3,
+  "work_experience_years": 1.5,
+  "merit_score": 55.51,
+  "admit": false,
+  "answer_tiers": {
+    "1": "ai_scripted",
+    "3": "off_topic",
+    "4": "strong"
+  }
+}

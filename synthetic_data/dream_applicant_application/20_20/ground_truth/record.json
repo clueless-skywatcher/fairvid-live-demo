@@ -1,0 +1,21 @@
+{
+  "applicant_id": "20_20",
+  "name": "Feng Liu",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "female",
+  "region": "region_c",
+  "age": 35,
+  "gpa": 2.84,
+  "test_score": 63.28,
+  "test_score_true": 63.28,
+  "english_score": 6.8,
+  "work_experience_years": 1.8,
+  "merit_score": 62.2,
+  "admit": false,
+  "answer_tiers": {
+    "0": "off_topic",
+    "1": "strong",
+    "2": "ai_scripted"
+  }
+}

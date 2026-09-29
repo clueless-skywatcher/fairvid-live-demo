@@ -1,0 +1,21 @@
+{
+  "applicant_id": "24_24",
+  "name": "Xia Wang",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "nonbinary",
+  "region": "region_c",
+  "age": 34,
+  "gpa": 2.78,
+  "test_score": 63.9,
+  "test_score_true": 63.9,
+  "english_score": 7.4,
+  "work_experience_years": 0.1,
+  "merit_score": 59.29,
+  "admit": false,
+  "answer_tiers": {
+    "0": "off_topic",
+    "1": "weak",
+    "7": "off_topic"
+  }
+}

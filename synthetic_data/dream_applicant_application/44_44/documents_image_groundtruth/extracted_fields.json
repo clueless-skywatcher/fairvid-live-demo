@@ -1,0 +1,38 @@
+{
+  "applicant_id": "44_44",
+  "name": "Ife Okafor",
+  "institution": "Meridian State University",
+  "study_program": "Electronics Engineering",
+  "graduation_year": 2022,
+  "gpa": 4.0,
+  "grades": [
+    {
+      "subject": "Signal Processing",
+      "grade": "A"
+    },
+    {
+      "subject": "Digital Logic",
+      "grade": "A-"
+    },
+    {
+      "subject": "Semiconductor Physics",
+      "grade": "A"
+    },
+    {
+      "subject": "Analog Circuits",
+      "grade": "A"
+    },
+    {
+      "subject": "Communication Systems",
+      "grade": "A"
+    },
+    {
+      "subject": "Embedded Systems",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/44_44/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/44_44/documents_image/transcript.png"
+  }
+}

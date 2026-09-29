@@ -1,0 +1,38 @@
+{
+  "applicant_id": "1_1",
+  "name": "Tendai Adeyemi",
+  "institution": "Aurelia Technical University",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2022,
+  "gpa": 2.69,
+  "grades": [
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "B"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "A-"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/1_1/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/1_1/documents_image/transcript.png"
+  }
+}

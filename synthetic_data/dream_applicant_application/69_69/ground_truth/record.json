@@ -1,0 +1,21 @@
+{
+  "applicant_id": "69_69",
+  "name": "Yan Li",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "female",
+  "region": "region_c",
+  "age": 24,
+  "gpa": 3.93,
+  "test_score": 68.36,
+  "test_score_true": 68.36,
+  "english_score": 6.1,
+  "work_experience_years": 0.5,
+  "merit_score": 66.54,
+  "admit": true,
+  "answer_tiers": {
+    "1": "ai_scripted",
+    "2": "ai_scripted",
+    "4": "ai_scripted"
+  }
+}

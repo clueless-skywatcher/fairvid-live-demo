@@ -1,0 +1,21 @@
+{
+  "applicant_id": "39_39",
+  "name": "Hao Zhang",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "female",
+  "region": "region_c",
+  "age": 33,
+  "gpa": 3.78,
+  "test_score": 81.57,
+  "test_score_true": 81.57,
+  "english_score": 7.6,
+  "work_experience_years": 2.4,
+  "merit_score": 80.32,
+  "admit": true,
+  "answer_tiers": {
+    "1": "strong",
+    "3": "strong",
+    "4": "strong"
+  }
+}

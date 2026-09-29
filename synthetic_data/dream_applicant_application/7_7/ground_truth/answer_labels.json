@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "Describe a specific medical device that you believe needs significant improvement and how you would approach it.",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 269,
+    "transcript_file": "0_describe_a_specific_medical_device_that_you_believ.txt"
+  },
+  {
+    "question_index": 3,
+    "question": "What role does signal processing play in modern diagnostic equipment like ECGs?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 172,
+    "transcript_file": "3_what_role_does_signal_processing_play_in_modern_di.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "Where do you see the intersection of AI and biomedical engineering in the next decade?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 261,
+    "transcript_file": "7_where_do_you_see_the_intersection_of_ai_and_biomed.txt"
+  }
+]

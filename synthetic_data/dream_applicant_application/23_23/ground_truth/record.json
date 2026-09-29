@@ -1,0 +1,21 @@
+{
+  "applicant_id": "23_23",
+  "name": "Anaya Bose",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "nonbinary",
+  "region": "region_a",
+  "age": 22,
+  "gpa": 2.73,
+  "test_score": 68.29,
+  "test_score_true": 68.29,
+  "english_score": 5.8,
+  "work_experience_years": 0.8,
+  "merit_score": 63.35,
+  "admit": true,
+  "answer_tiers": {
+    "1": "off_topic",
+    "2": "off_topic",
+    "5": "strong"
+  }
+}

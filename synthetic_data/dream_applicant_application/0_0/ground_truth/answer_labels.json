@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 2,
+    "question": "Explain the concept of tissue engineering to someone without a medical background.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 180,
+    "transcript_file": "2_explain_the_concept_of_tissue_engineering_to_someo.txt"
+  },
+  {
+    "question_index": 3,
+    "question": "What role does signal processing play in modern diagnostic equipment like ECGs?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 177,
+    "transcript_file": "3_what_role_does_signal_processing_play_in_modern_di.txt"
+  },
+  {
+    "question_index": 6,
+    "question": "What programming languages or software tools have you used for biological data analysis?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 106,
+    "transcript_file": "6_what_programming_languages_or_software_tools_have_.txt"
+  }
+]

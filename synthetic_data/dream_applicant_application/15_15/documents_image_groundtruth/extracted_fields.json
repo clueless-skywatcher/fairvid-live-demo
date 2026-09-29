@@ -1,0 +1,38 @@
+{
+  "applicant_id": "15_15",
+  "name": "Vihaan Iyer",
+  "institution": "Lakeside University of Applied Sciences",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2025,
+  "gpa": 2.96,
+  "grades": [
+    {
+      "subject": "Fluid Dynamics",
+      "grade": "A"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "A"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/15_15/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/15_15/documents_image/transcript.png"
+  }
+}

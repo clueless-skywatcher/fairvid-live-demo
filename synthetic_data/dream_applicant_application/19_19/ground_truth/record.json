@@ -1,0 +1,21 @@
+{
+  "applicant_id": "19_19",
+  "name": "Lucas Clark",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 36,
+  "gpa": 2.6,
+  "test_score": 62.49,
+  "test_score_true": 62.49,
+  "english_score": 5.7,
+  "work_experience_years": 0.8,
+  "merit_score": 55.54,
+  "admit": false,
+  "answer_tiers": {
+    "1": "strong",
+    "3": "off_topic",
+    "4": "strong"
+  }
+}

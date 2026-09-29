@@ -1,0 +1,21 @@
+{
+  "applicant_id": "59_59",
+  "name": "Yan Zhang",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "female",
+  "region": "region_c",
+  "age": 30,
+  "gpa": 3.43,
+  "test_score": 63.78,
+  "test_score_true": 63.78,
+  "english_score": 8.1,
+  "work_experience_years": 2.9,
+  "merit_score": 74.43,
+  "admit": true,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "5": "weak",
+    "7": "weak"
+  }
+}

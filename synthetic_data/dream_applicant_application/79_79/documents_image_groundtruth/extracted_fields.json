@@ -1,0 +1,38 @@
+{
+  "applicant_id": "79_79",
+  "name": "Ife Dube",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Electronics Engineering",
+  "graduation_year": 2022,
+  "gpa": 3.5,
+  "grades": [
+    {
+      "subject": "Communication Systems",
+      "grade": "A"
+    },
+    {
+      "subject": "Analog Circuits",
+      "grade": "A"
+    },
+    {
+      "subject": "Embedded Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Digital Logic",
+      "grade": "A-"
+    },
+    {
+      "subject": "Semiconductor Physics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Microprocessors",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/79_79/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/79_79/documents_image/transcript.png"
+  }
+}

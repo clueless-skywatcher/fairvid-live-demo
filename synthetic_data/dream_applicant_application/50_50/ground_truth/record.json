@@ -1,0 +1,21 @@
+{
+  "applicant_id": "50_50",
+  "name": "Zola Okafor",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "female",
+  "region": "region_d",
+  "age": 34,
+  "gpa": 4.0,
+  "test_score": 60.6,
+  "test_score_true": 72.6,
+  "english_score": 6.1,
+  "work_experience_years": 3.2,
+  "merit_score": 76.75,
+  "admit": true,
+  "answer_tiers": {
+    "2": "weak",
+    "5": "strong",
+    "7": "weak"
+  }
+}

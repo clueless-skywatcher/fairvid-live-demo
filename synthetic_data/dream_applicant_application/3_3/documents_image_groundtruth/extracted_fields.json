@@ -1,0 +1,38 @@
+{
+  "applicant_id": "3_3",
+  "name": "Mei Zhang",
+  "institution": "Meridian State University",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2023,
+  "gpa": 3.08,
+  "grades": [
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "A"
+    },
+    {
+      "subject": "Sustainability Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Waste Management",
+      "grade": "B+"
+    },
+    {
+      "subject": "Environmental Chemistry",
+      "grade": "B+"
+    },
+    {
+      "subject": "Hydrology",
+      "grade": "A"
+    },
+    {
+      "subject": "Water Resources",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/3_3/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/3_3/documents_image/transcript.png"
+  }
+}

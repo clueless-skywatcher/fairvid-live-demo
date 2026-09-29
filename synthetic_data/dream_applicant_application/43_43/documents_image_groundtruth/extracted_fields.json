@@ -1,0 +1,38 @@
+{
+  "applicant_id": "43_43",
+  "name": "Ife Banda",
+  "institution": "Cordoba Polytechnic",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2022,
+  "gpa": 3.29,
+  "grades": [
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "A"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "A-"
+    },
+    {
+      "subject": "Control Systems",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/43_43/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/43_43/documents_image/transcript.png"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "applicant_id": "40_40",
+  "name": "Vihaan Nair",
+  "institution": "Lakeside University of Applied Sciences",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2022,
+  "gpa": 3.03,
+  "grades": [
+    {
+      "subject": "Materials Science",
+      "grade": "A"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "B+"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A"
+    },
+    {
+      "subject": "Control Systems",
+      "grade": "A"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "A"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/40_40/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/40_40/documents_image/transcript.png"
+  }
+}

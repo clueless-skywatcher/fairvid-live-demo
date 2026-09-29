@@ -1,0 +1,21 @@
+{
+  "applicant_id": "75_75",
+  "name": "Ife Adeyemi",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "nonbinary",
+  "region": "region_d",
+  "age": 23,
+  "gpa": 2.67,
+  "test_score": 54.89,
+  "test_score_true": 66.89,
+  "english_score": 7.4,
+  "work_experience_years": 0.0,
+  "merit_score": 60.51,
+  "admit": false,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "1": "strong",
+    "4": "strong"
+  }
+}

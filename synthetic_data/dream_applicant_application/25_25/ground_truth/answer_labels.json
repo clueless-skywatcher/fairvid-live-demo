@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "What do you think is the biggest barrier to the adoption of new medical technologies?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 279,
+    "transcript_file": "0_what_do_you_think_is_the_biggest_barrier_to_the_ad.txt"
+  },
+  {
+    "question_index": 1,
+    "question": "How would you design a wearable device for monitoring heart health?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 303,
+    "transcript_file": "1_how_would_you_design_a_wearable_device_for_monitor.txt"
+  },
+  {
+    "question_index": 2,
+    "question": "What interests you more: clinical engineering or research and development?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 157,
+    "transcript_file": "2_what_interests_you_more_clinical_engineering_or_re.txt"
+  }
+]

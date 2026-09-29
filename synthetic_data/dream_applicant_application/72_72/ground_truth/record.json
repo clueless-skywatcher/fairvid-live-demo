@@ -1,0 +1,21 @@
+{
+  "applicant_id": "72_72",
+  "name": "Diya Bose",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "male",
+  "region": "region_a",
+  "age": 22,
+  "gpa": 1.96,
+  "test_score": 71.1,
+  "test_score_true": 71.1,
+  "english_score": 6.9,
+  "work_experience_years": 0.3,
+  "merit_score": 54.5,
+  "admit": false,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "1": "ai_scripted",
+    "7": "strong"
+  }
+}

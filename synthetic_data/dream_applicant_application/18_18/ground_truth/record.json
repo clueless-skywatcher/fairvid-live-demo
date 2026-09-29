@@ -1,0 +1,21 @@
+{
+  "applicant_id": "18_18",
+  "name": "Anaya Iyer",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "male",
+  "region": "region_a",
+  "age": 24,
+  "gpa": 2.97,
+  "test_score": 66.71,
+  "test_score_true": 66.71,
+  "english_score": 6.7,
+  "work_experience_years": 2.5,
+  "merit_score": 69.88,
+  "admit": true,
+  "answer_tiers": {
+    "2": "ai_scripted",
+    "3": "off_topic",
+    "4": "weak"
+  }
+}

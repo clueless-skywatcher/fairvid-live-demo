@@ -1,0 +1,21 @@
+{
+  "applicant_id": "51_51",
+  "name": "Zola Mensah",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "nonbinary",
+  "region": "region_d",
+  "age": 35,
+  "gpa": 3.06,
+  "test_score": 44.19,
+  "test_score_true": 56.19,
+  "english_score": 7.8,
+  "work_experience_years": 0.5,
+  "merit_score": 64.56,
+  "admit": true,
+  "answer_tiers": {
+    "0": "weak",
+    "4": "off_topic",
+    "6": "off_topic"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "25_25",
+  "name": "Liam Davis",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 25,
+  "gpa": 3.34,
+  "test_score": 74.59,
+  "test_score_true": 74.59,
+  "english_score": 6.3,
+  "work_experience_years": 0.7,
+  "merit_score": 69.86,
+  "admit": true,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "1": "ai_scripted",
+    "2": "weak"
+  }
+}

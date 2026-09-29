@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 1,
+    "question": "What methods are effective for removing heavy metals from soil?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 258,
+    "transcript_file": "1_what_methods_are_effective_for_removing_heavy_meta.txt"
+  },
+  {
+    "question_index": 2,
+    "question": "Discuss the global challenges of plastic pollution in oceans.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 234,
+    "transcript_file": "2_discuss_the_global_challenges_of_plastic_pollution.txt"
+  },
+  {
+    "question_index": 3,
+    "question": "How does the greenhouse effect work?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 152,
+    "transcript_file": "3_how_does_the_greenhouse_effect_work.txt"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "70_70",
+  "name": "Obi Banda",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec",
+  "gender": "nonbinary",
+  "region": "region_d",
+  "age": 27,
+  "gpa": 3.3,
+  "test_score": 56.75,
+  "test_score_true": 68.75,
+  "english_score": 7.0,
+  "work_experience_years": 0.8,
+  "merit_score": 64.31,
+  "admit": true,
+  "answer_tiers": {
+    "0": "weak",
+    "5": "strong",
+    "6": "weak"
+  }
+}

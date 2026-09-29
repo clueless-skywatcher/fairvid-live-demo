@@ -1,0 +1,38 @@
+{
+  "applicant_id": "12_12",
+  "name": "Xia Liu",
+  "institution": "Aurelia Technical University",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2023,
+  "gpa": 3.33,
+  "grades": [
+    {
+      "subject": "Fluid Dynamics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/12_12/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/12_12/documents_image/transcript.png"
+  }
+}

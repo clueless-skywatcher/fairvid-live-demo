@@ -1,0 +1,38 @@
+{
+  "applicant_id": "57_57",
+  "name": "Feng Chen",
+  "institution": "Lakeside University of Applied Sciences",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2022,
+  "gpa": 2.48,
+  "grades": [
+    {
+      "subject": "Aerodynamics",
+      "grade": "B"
+    },
+    {
+      "subject": "Control Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/57_57/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/57_57/documents_image/transcript.png"
+  }
+}

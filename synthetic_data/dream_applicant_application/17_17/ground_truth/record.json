@@ -1,0 +1,21 @@
+{
+  "applicant_id": "17_17",
+  "name": "Liam Clark",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "female",
+  "region": "region_b",
+  "age": 24,
+  "gpa": 2.13,
+  "test_score": 79.08,
+  "test_score_true": 79.08,
+  "english_score": 6.0,
+  "work_experience_years": 0.9,
+  "merit_score": 59.69,
+  "admit": false,
+  "answer_tiers": {
+    "4": "weak",
+    "5": "ai_scripted",
+    "6": "strong"
+  }
+}

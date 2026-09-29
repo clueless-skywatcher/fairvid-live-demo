@@ -1,0 +1,21 @@
+{
+  "applicant_id": "37_37",
+  "name": "Sefu Mensah",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "male",
+  "region": "region_d",
+  "age": 35,
+  "gpa": 3.19,
+  "test_score": 26.64,
+  "test_score_true": 38.64,
+  "english_score": 7.0,
+  "work_experience_years": 2.8,
+  "merit_score": 60.32,
+  "admit": false,
+  "answer_tiers": {
+    "3": "ai_scripted",
+    "6": "weak",
+    "7": "weak"
+  }
+}

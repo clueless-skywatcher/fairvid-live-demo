@@ -1,0 +1,21 @@
+{
+  "applicant_id": "5_5",
+  "name": "Saanvi Reddy",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "male",
+  "region": "region_a",
+  "age": 35,
+  "gpa": 2.71,
+  "test_score": 68.66,
+  "test_score_true": 68.66,
+  "english_score": 6.9,
+  "work_experience_years": 2.1,
+  "merit_score": 61.27,
+  "admit": false,
+  "answer_tiers": {
+    "0": "strong",
+    "3": "weak",
+    "4": "weak"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "66_66",
+  "name": "Vihaan Reddy",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "male",
+  "region": "region_a",
+  "age": 35,
+  "gpa": 3.7,
+  "test_score": 36.17,
+  "test_score_true": 36.17,
+  "english_score": 7.3,
+  "work_experience_years": 1.5,
+  "merit_score": 63.31,
+  "admit": true,
+  "answer_tiers": {
+    "0": "strong",
+    "2": "weak",
+    "5": "weak"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "applicant_id": "66_66",
+  "name": "Vihaan Reddy",
+  "institution": "Cordoba Polytechnic",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2025,
+  "gpa": 3.7,
+  "grades": [
+    {
+      "subject": "Environmental Chemistry",
+      "grade": "A"
+    },
+    {
+      "subject": "Environmental Policy",
+      "grade": "A"
+    },
+    {
+      "subject": "Waste Management",
+      "grade": "A"
+    },
+    {
+      "subject": "Renewable Energy",
+      "grade": "A"
+    },
+    {
+      "subject": "Water Resources",
+      "grade": "A"
+    },
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/66_66/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/66_66/documents_image/transcript.png"
+  }
+}

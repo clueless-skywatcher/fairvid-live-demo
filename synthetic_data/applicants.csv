@@ -1,0 +1,81 @@
+applicant_id,name,study_program,study_program_raw,gender,region,age,gpa,test_score,test_score_true,english_score,work_experience_years,merit_score,admit
+0_0,Ife Dube,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,male,region_d,33,2.86,47.31,59.31,6.4,5.1,69.3,True
+1_1,Tendai Adeyemi,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,female,region_d,35,2.69,63.88,75.88,7.1,1.3,63.14,False
+2_2,Xia Huang,Electronics Engineering,Master's degree in Electronics Engineering ⚡,male,region_c,30,2.77,47.19,47.19,5.6,0.3,49.87,False
+3_3,Mei Zhang,Environmental Engineering and Management,Msc in Environmental Engineering and Management,female,region_c,21,3.08,67.76,67.76,4.5,3.3,64.97,True
+4_4,Emma Brown,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,male,region_b,27,3.07,58.26,58.26,6.1,1.0,56.89,False
+5_5,Saanvi Reddy,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,male,region_a,35,2.71,68.66,68.66,6.9,2.1,61.27,False
+6_6,Aarav Sharma,Environmental Engineering and Management,Interview Environmental Engineering and Management2,nonbinary,region_a,29,3.43,71.43,71.43,6.2,1.8,71.43,True
+7_7,Meera Reddy,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,male,region_a,27,3.29,67.73,67.73,7.4,2.8,73.88,True
+8_8,Mia Davis,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_b,29,2.77,71.53,71.53,5.7,1.3,61.26,False
+9_9,Rohan Sharma,Electronics Engineering,Master's degree in Electronics Engineering ⚡,male,region_a,38,2.34,60.46,60.46,7.4,2.0,58.83,False
+10_10,Ife Mensah,Environmental Engineering and Management,Msc in Environmental Engineering and Management,nonbinary,region_d,29,2.84,53.58,65.58,6.6,0.4,58.47,False
+11_11,Lan Wang,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,female,region_c,24,2.94,67.63,67.63,5.8,1.3,60.43,False
+12_12,Xia Liu,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,female,region_c,38,3.33,65.92,65.92,7.7,4.1,77.33,True
+13_13,Olivia Clark,Environmental Engineering and Management,Interview Environmental Engineering and Management2,nonbinary,region_b,21,2.16,45.58,45.58,6.5,1.0,49.66,False
+14_14,Jin Huang,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,male,region_c,22,3.1,75.92,75.92,6.6,1.7,71.01,True
+15_15,Vihaan Iyer,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_a,37,2.96,70.42,70.42,5.9,0.4,58.35,False
+16_16,Obi Sow,Electronics Engineering,Master's degree in Electronics Engineering ⚡,female,region_d,36,2.7,56.58,68.58,5.0,0.3,57.12,False
+17_17,Liam Clark,Environmental Engineering and Management,Msc in Environmental Engineering and Management,female,region_b,24,2.13,79.08,79.08,6.0,0.9,59.69,False
+18_18,Anaya Iyer,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,male,region_a,24,2.97,66.71,66.71,6.7,2.5,69.88,True
+19_19,Lucas Clark,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,nonbinary,region_b,36,2.6,62.49,62.49,5.7,0.8,55.54,False
+20_20,Feng Liu,Environmental Engineering and Management,Interview Environmental Engineering and Management2,female,region_c,35,2.84,63.28,63.28,6.8,1.8,62.2,False
+21_21,Anaya Nair,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,female,region_a,21,3.83,61.95,61.95,5.9,0.5,62.23,False
+22_22,Saanvi Sharma,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_a,29,2.68,48.87,48.87,7.5,0.6,55.57,False
+23_23,Anaya Bose,Electronics Engineering,Master's degree in Electronics Engineering ⚡,nonbinary,region_a,22,2.73,68.29,68.29,5.8,0.8,63.35,True
+24_24,Xia Wang,Environmental Engineering and Management,Msc in Environmental Engineering and Management,nonbinary,region_c,34,2.78,63.9,63.9,7.4,0.1,59.29,False
+25_25,Liam Davis,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,nonbinary,region_b,25,3.34,74.59,74.59,6.3,0.7,69.86,True
+26_26,Kabir Patel,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,female,region_a,29,3.39,79.97,79.97,7.6,2.4,80.92,True
+27_27,Rohan Nair,Environmental Engineering and Management,Interview Environmental Engineering and Management2,nonbinary,region_a,31,3.25,80.48,80.48,8.5,1.5,71.68,True
+28_28,Amara Mensah,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,female,region_d,23,2.99,68.08,80.08,5.3,7.6,78.08,True
+29_29,Vihaan Sharma,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,nonbinary,region_a,34,3.02,59.67,59.67,5.4,4.2,63.25,False
+30_30,Mia Brown,Electronics Engineering,Master's degree in Electronics Engineering ⚡,male,region_b,21,3.2,58.13,58.13,6.2,0.8,57.46,False
+31_31,Ife Dube,Environmental Engineering and Management,Msc in Environmental Engineering and Management,female,region_d,23,3.18,62.08,74.08,8.6,2.2,77.18,True
+32_32,Meera Iyer,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,female,region_a,36,2.77,78.92,78.92,6.7,0.2,62.99,False
+33_33,Sefu Dube,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,male,region_d,27,1.9,49.7,61.7,5.0,0.3,45.83,False
+34_34,Feng Zhang,Environmental Engineering and Management,Interview Environmental Engineering and Management2,female,region_c,27,2.41,58.71,58.71,7.8,2.1,61.51,False
+35_35,Meera Reddy,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,nonbinary,region_a,23,3.4,76.63,76.63,7.0,0.4,70.45,True
+36_36,Tendai Okafor,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,female,region_d,21,2.93,57.91,69.91,5.6,0.3,64.03,True
+37_37,Sefu Mensah,Electronics Engineering,Master's degree in Electronics Engineering ⚡,male,region_d,35,3.19,26.64,38.64,7.0,2.8,60.32,False
+38_38,Lucas Brown,Environmental Engineering and Management,Msc in Environmental Engineering and Management,female,region_b,34,3.59,74.01,74.01,6.8,0.2,66.7,True
+39_39,Hao Zhang,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,female,region_c,33,3.78,81.57,81.57,7.6,2.4,80.32,True
+40_40,Vihaan Nair,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,female,region_a,36,3.03,88.14,88.14,7.3,0.9,70.32,True
+41_41,Aarav Iyer,Environmental Engineering and Management,Interview Environmental Engineering and Management2,male,region_a,36,3.25,70.81,70.81,6.5,2.5,69.74,True
+42_42,Olivia Clark,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,nonbinary,region_b,27,2.89,71.32,71.32,5.4,0.3,56.78,False
+43_43,Ife Banda,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_d,37,3.29,76.29,88.29,6.5,3.3,78.98,True
+44_44,Ife Okafor,Electronics Engineering,Master's degree in Electronics Engineering ⚡,female,region_d,29,4.0,54.9,66.9,6.6,0.5,70.38,True
+45_45,Liam Brown,Environmental Engineering and Management,Msc in Environmental Engineering and Management,male,region_b,26,3.64,59.13,59.13,7.8,2.6,77.68,True
+46_46,Wei Zhang,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,female,region_c,30,2.67,70.5,70.5,8.1,0.1,60.32,False
+47_47,Mia Wilson,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,nonbinary,region_b,24,3.15,67.54,67.54,7.0,0.4,62.98,False
+48_48,Olivia Wilson,Environmental Engineering and Management,Interview Environmental Engineering and Management2,male,region_b,38,3.25,92.45,92.45,7.3,0.3,68.84,True
+49_49,Naila Sow,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,nonbinary,region_d,37,2.3,68.26,80.26,7.4,1.3,59.82,False
+50_50,Zola Okafor,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,female,region_d,34,4.0,60.6,72.6,6.1,3.2,76.75,True
+51_51,Zola Mensah,Electronics Engineering,Master's degree in Electronics Engineering ⚡,nonbinary,region_d,35,3.06,44.19,56.19,7.8,0.5,64.56,True
+52_52,Ethan Wilson,Environmental Engineering and Management,Msc in Environmental Engineering and Management,female,region_b,22,2.81,65.93,65.93,5.6,0.8,60.98,False
+53_53,Rohan Iyer,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,female,region_a,30,3.5,49.2,49.2,6.1,3.2,66.3,True
+54_54,Mia Davis,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,nonbinary,region_b,35,2.39,58.83,58.83,7.5,2.9,56.77,False
+55_55,Ethan Smith,Environmental Engineering and Management,Interview Environmental Engineering and Management2,male,region_b,33,3.67,65.4,65.4,6.5,0.5,73.9,True
+56_56,Mei Huang,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,nonbinary,region_c,34,3.08,49.94,49.94,6.5,1.1,54.05,False
+57_57,Feng Chen,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_c,31,2.48,63.98,63.98,6.4,1.3,56.79,False
+58_58,Kwame Sow,Electronics Engineering,Master's degree in Electronics Engineering ⚡,male,region_d,26,2.36,57.42,69.42,7.6,1.8,63.29,False
+59_59,Yan Zhang,Environmental Engineering and Management,Msc in Environmental Engineering and Management,female,region_c,30,3.43,63.78,63.78,8.1,2.9,74.43,True
+60_60,Lucas Clark,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,male,region_b,22,2.92,77.24,77.24,6.8,1.0,66.23,True
+61_61,Feng Liu,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,female,region_c,27,2.55,69.53,69.53,5.3,1.5,55.51,False
+62_62,Tendai Mensah,Environmental Engineering and Management,Interview Environmental Engineering and Management2,female,region_d,33,3.55,39.71,51.71,5.8,0.9,56.52,False
+63_63,Hao Li,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,male,region_c,28,2.64,77.0,77.0,6.1,0.7,59.07,False
+64_64,Naila Mensah,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_d,25,2.84,60.93,72.93,6.8,0.7,63.81,True
+65_65,Olivia Davis,Electronics Engineering,Master's degree in Electronics Engineering ⚡,nonbinary,region_b,33,2.22,57.86,57.86,5.6,0.8,53.72,False
+66_66,Vihaan Reddy,Environmental Engineering and Management,Msc in Environmental Engineering and Management,male,region_a,35,3.7,36.17,36.17,7.3,1.5,63.31,True
+67_67,Lan Liu,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,nonbinary,region_c,34,2.25,58.27,58.27,8.0,1.2,57.02,False
+68_68,Yan Huang,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,female,region_c,27,2.98,68.99,68.99,6.7,0.5,62.59,False
+69_69,Yan Li,Environmental Engineering and Management,Interview Environmental Engineering and Management2,female,region_c,24,3.93,68.36,68.36,6.1,0.5,66.54,True
+70_70,Obi Banda,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,nonbinary,region_d,27,3.3,56.75,68.75,7.0,0.8,64.31,True
+71_71,Ife Dube,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,female,region_d,32,2.73,60.81,72.81,6.8,0.8,63.19,False
+72_72,Diya Bose,Electronics Engineering,Master's degree in Electronics Engineering ⚡,male,region_a,22,1.96,71.1,71.1,6.9,0.3,54.5,False
+73_73,Emma Brown,Environmental Engineering and Management,Msc in Environmental Engineering and Management,nonbinary,region_b,38,2.87,63.37,63.37,6.9,1.7,63.86,True
+74_74,Kabir Nair,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬 2,female,region_a,21,2.78,76.63,76.63,5.3,0.7,61.97,False
+75_75,Ife Adeyemi,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️ 2,nonbinary,region_d,23,2.67,54.89,66.89,7.4,0.0,60.51,False
+76_76,Emma Clark,Environmental Engineering and Management,Interview Environmental Engineering and Management2,nonbinary,region_b,38,3.5,72.81,72.81,5.4,1.5,67.1,True
+77_77,Kwame Sow,Biomedical Engineering,Master's degree in Biomedical Engineering 🧬,nonbinary,region_d,37,2.25,42.44,54.44,6.2,0.6,50.17,False
+78_78,Zola Banda,Aerospace Engineering,Master's degree in Aerospace Engineering 🛰️,male,region_d,34,2.95,55.1,67.1,5.7,0.7,61.31,False
+79_79,Ife Dube,Electronics Engineering,Master's degree in Electronics Engineering ⚡,nonbinary,region_d,34,3.5,48.73,60.73,6.7,0.3,65.01,True

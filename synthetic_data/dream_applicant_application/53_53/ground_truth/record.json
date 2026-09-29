@@ -1,0 +1,21 @@
+{
+  "applicant_id": "53_53",
+  "name": "Rohan Iyer",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "female",
+  "region": "region_a",
+  "age": 30,
+  "gpa": 3.5,
+  "test_score": 49.2,
+  "test_score_true": 49.2,
+  "english_score": 6.1,
+  "work_experience_years": 3.2,
+  "merit_score": 66.3,
+  "admit": true,
+  "answer_tiers": {
+    "0": "off_topic",
+    "2": "strong",
+    "4": "strong"
+  }
+}

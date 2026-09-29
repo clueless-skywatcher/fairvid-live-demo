@@ -1,0 +1,21 @@
+{
+  "applicant_id": "16_16",
+  "name": "Obi Sow",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "female",
+  "region": "region_d",
+  "age": 36,
+  "gpa": 2.7,
+  "test_score": 56.58,
+  "test_score_true": 68.58,
+  "english_score": 5.0,
+  "work_experience_years": 0.3,
+  "merit_score": 57.12,
+  "admit": false,
+  "answer_tiers": {
+    "0": "weak",
+    "4": "ai_scripted",
+    "5": "weak"
+  }
+}

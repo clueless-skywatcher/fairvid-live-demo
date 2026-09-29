@@ -1,0 +1,21 @@
+{
+  "n_applicants": 80,
+  "questions_per_applicant": 3,
+  "seed": 7,
+  "bias_gap": 12.0,
+  "protected_attribute": "region",
+  "programs": [
+    "Aerospace Engineering",
+    "Biomedical Engineering",
+    "Electronics Engineering",
+    "Environmental Engineering and Management"
+  ],
+  "n_admitted": 36,
+  "tier_counts": {
+    "strong": 65,
+    "weak": 77,
+    "off_topic": 27,
+    "ai_scripted": 71
+  },
+  "base_dir": "/home/epsilonator/Github/fairvid-live-demo/synthetic_data"
+}

@@ -1,0 +1,38 @@
+{
+  "applicant_id": "41_41",
+  "name": "Aarav Iyer",
+  "institution": "Meridian State University",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2022,
+  "gpa": 3.25,
+  "grades": [
+    {
+      "subject": "Renewable Energy",
+      "grade": "A"
+    },
+    {
+      "subject": "Sustainability Science",
+      "grade": "A-"
+    },
+    {
+      "subject": "Waste Management",
+      "grade": "A"
+    },
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "A-"
+    },
+    {
+      "subject": "Hydrology",
+      "grade": "A-"
+    },
+    {
+      "subject": "Environmental Chemistry",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/41_41/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/41_41/documents_image/transcript.png"
+  }
+}

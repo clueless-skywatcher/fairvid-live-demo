@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "How does the Reynolds number influence the design of an airfoil?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 159,
+    "transcript_file": "0_how_does_the_reynolds_number_influence_the_design_.txt"
+  },
+  {
+    "question_index": 1,
+    "question": "Discuss the primary challenges in developing sustainable aviation fuels.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 278,
+    "transcript_file": "1_discuss_the_primary_challenges_in_developing_susta.txt"
+  },
+  {
+    "question_index": 6,
+    "question": "Describe a time you had to troubleshoot a mechanical failure in a project.",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 302,
+    "transcript_file": "6_describe_a_time_you_had_to_troubleshoot_a_mechanic.txt"
+  }
+]

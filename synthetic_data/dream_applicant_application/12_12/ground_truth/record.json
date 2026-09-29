@@ -1,0 +1,21 @@
+{
+  "applicant_id": "12_12",
+  "name": "Xia Liu",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "female",
+  "region": "region_c",
+  "age": 38,
+  "gpa": 3.33,
+  "test_score": 65.92,
+  "test_score_true": 65.92,
+  "english_score": 7.7,
+  "work_experience_years": 4.1,
+  "merit_score": 77.33,
+  "admit": true,
+  "answer_tiers": {
+    "0": "weak",
+    "1": "off_topic",
+    "2": "ai_scripted"
+  }
+}

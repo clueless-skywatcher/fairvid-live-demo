@@ -1,0 +1,21 @@
+{
+  "applicant_id": "26_26",
+  "name": "Kabir Patel",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "female",
+  "region": "region_a",
+  "age": 29,
+  "gpa": 3.39,
+  "test_score": 79.97,
+  "test_score_true": 79.97,
+  "english_score": 7.6,
+  "work_experience_years": 2.4,
+  "merit_score": 80.92,
+  "admit": true,
+  "answer_tiers": {
+    "0": "strong",
+    "3": "ai_scripted",
+    "4": "ai_scripted"
+  }
+}

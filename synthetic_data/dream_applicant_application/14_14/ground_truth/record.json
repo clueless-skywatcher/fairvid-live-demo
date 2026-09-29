@@ -1,0 +1,21 @@
+{
+  "applicant_id": "14_14",
+  "name": "Jin Huang",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec",
+  "gender": "male",
+  "region": "region_c",
+  "age": 22,
+  "gpa": 3.1,
+  "test_score": 75.92,
+  "test_score_true": 75.92,
+  "english_score": 6.6,
+  "work_experience_years": 1.7,
+  "merit_score": 71.01,
+  "admit": true,
+  "answer_tiers": {
+    "1": "weak",
+    "5": "ai_scripted",
+    "7": "weak"
+  }
+}

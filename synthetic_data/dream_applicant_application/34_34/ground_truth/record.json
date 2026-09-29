@@ -1,0 +1,21 @@
+{
+  "applicant_id": "34_34",
+  "name": "Feng Zhang",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "female",
+  "region": "region_c",
+  "age": 27,
+  "gpa": 2.41,
+  "test_score": 58.71,
+  "test_score_true": 58.71,
+  "english_score": 7.8,
+  "work_experience_years": 2.1,
+  "merit_score": 61.51,
+  "admit": false,
+  "answer_tiers": {
+    "1": "weak",
+    "2": "ai_scripted",
+    "3": "ai_scripted"
+  }
+}

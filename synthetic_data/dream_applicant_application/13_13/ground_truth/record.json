@@ -1,0 +1,21 @@
+{
+  "applicant_id": "13_13",
+  "name": "Olivia Clark",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 21,
+  "gpa": 2.16,
+  "test_score": 45.58,
+  "test_score_true": 45.58,
+  "english_score": 6.5,
+  "work_experience_years": 1.0,
+  "merit_score": 49.66,
+  "admit": false,
+  "answer_tiers": {
+    "2": "off_topic",
+    "3": "weak",
+    "4": "off_topic"
+  }
+}

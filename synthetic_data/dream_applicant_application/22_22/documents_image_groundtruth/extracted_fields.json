@@ -1,0 +1,38 @@
+{
+  "applicant_id": "22_22",
+  "name": "Saanvi Sharma",
+  "institution": "Meridian State University",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2024,
+  "gpa": 2.68,
+  "grades": [
+    {
+      "subject": "Structural Analysis",
+      "grade": "B+"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "A-"
+    },
+    {
+      "subject": "Fluid Dynamics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/22_22/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/22_22/documents_image/transcript.png"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "41_41",
+  "name": "Aarav Iyer",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "male",
+  "region": "region_a",
+  "age": 36,
+  "gpa": 3.25,
+  "test_score": 70.81,
+  "test_score_true": 70.81,
+  "english_score": 6.5,
+  "work_experience_years": 2.5,
+  "merit_score": 69.74,
+  "admit": true,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "1": "ai_scripted",
+    "2": "strong"
+  }
+}

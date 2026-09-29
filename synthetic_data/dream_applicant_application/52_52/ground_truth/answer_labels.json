@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "What strategies would you propose for effective solid waste management in a dense urban area?",
+    "tier": "off_topic",
+    "expected_score_low": 18,
+    "expected_score_high": 52,
+    "is_ai_scripted": false,
+    "word_count": 272,
+    "transcript_file": "0_what_strategies_would_you_propose_for_effective_so.txt"
+  },
+  {
+    "question_index": 3,
+    "question": "What technologies are most promising for wastewater treatment today?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 172,
+    "transcript_file": "3_what_technologies_are_most_promising_for_wastewate.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "How would you assess the environmental impact of a new construction project?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 341,
+    "transcript_file": "5_how_would_you_assess_the_environmental_impact_of_a.txt"
+  }
+]

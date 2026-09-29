@@ -1,0 +1,21 @@
+{
+  "applicant_id": "52_52",
+  "name": "Ethan Wilson",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "female",
+  "region": "region_b",
+  "age": 22,
+  "gpa": 2.81,
+  "test_score": 65.93,
+  "test_score_true": 65.93,
+  "english_score": 5.6,
+  "work_experience_years": 0.8,
+  "merit_score": 60.98,
+  "admit": false,
+  "answer_tiers": {
+    "0": "off_topic",
+    "3": "strong",
+    "5": "strong"
+  }
+}

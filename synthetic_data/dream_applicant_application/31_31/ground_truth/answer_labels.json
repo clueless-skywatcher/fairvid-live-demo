@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 1,
+    "question": "Explain the concept of Life Cycle Assessment (LCA) and its importance.",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 160,
+    "transcript_file": "1_explain_the_concept_of_life_cycle_assessment_lca_a.txt"
+  },
+  {
+    "question_index": 4,
+    "question": "Discuss the economic implications of transitioning to renewable energy sources.",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 271,
+    "transcript_file": "4_discuss_the_economic_implications_of_transitioning.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "Describe a time you advocated for a sustainable practice in your personal or professional life.",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 330,
+    "transcript_file": "7_describe_a_time_you_advocated_for_a_sustainable_pr.txt"
+  }
+]

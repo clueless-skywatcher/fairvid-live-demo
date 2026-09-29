@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 2,
+    "question": "How does climate change impact water resource management in your region?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 231,
+    "transcript_file": "2_how_does_climate_change_impact_water_resource_mana.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "How would you assess the environmental impact of a new construction project?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 279,
+    "transcript_file": "5_how_would_you_assess_the_environmental_impact_of_a.txt"
+  },
+  {
+    "question_index": 6,
+    "question": "What is the difference between circular economy and linear economy models?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 182,
+    "transcript_file": "6_what_is_the_difference_between_circular_economy_an.txt"
+  }
+]

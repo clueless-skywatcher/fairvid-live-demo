@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 4,
+    "question": "How would you approach the thermal management of a satellite in orbit?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 248,
+    "transcript_file": "4_how_would_you_approach_the_thermal_management_of_a.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "What is your opinion on the commercialization of space travel?",
+    "tier": "off_topic",
+    "expected_score_low": 18,
+    "expected_score_high": 52,
+    "is_ai_scripted": false,
+    "word_count": 249,
+    "transcript_file": "5_what_is_your_opinion_on_the_commercialization_of_s.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "How do computational fluid dynamics (CFD) simulations compare to wind tunnel testing?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 270,
+    "transcript_file": "7_how_do_computational_fluid_dynamics_cfd_simulation.txt"
+  }
+]

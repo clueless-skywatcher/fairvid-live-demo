@@ -1,0 +1,21 @@
+{
+  "applicant_id": "0_0",
+  "name": "Ife Dube",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec",
+  "gender": "male",
+  "region": "region_d",
+  "age": 33,
+  "gpa": 2.86,
+  "test_score": 47.31,
+  "test_score_true": 59.31,
+  "english_score": 6.4,
+  "work_experience_years": 5.1,
+  "merit_score": 69.3,
+  "admit": true,
+  "answer_tiers": {
+    "2": "weak",
+    "3": "weak",
+    "6": "strong"
+  }
+}

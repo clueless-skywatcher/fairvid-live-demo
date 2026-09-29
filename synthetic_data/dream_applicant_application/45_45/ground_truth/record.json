@@ -1,0 +1,21 @@
+{
+  "applicant_id": "45_45",
+  "name": "Liam Brown",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "male",
+  "region": "region_b",
+  "age": 26,
+  "gpa": 3.64,
+  "test_score": 59.13,
+  "test_score_true": 59.13,
+  "english_score": 7.8,
+  "work_experience_years": 2.6,
+  "merit_score": 77.68,
+  "admit": true,
+  "answer_tiers": {
+    "0": "weak",
+    "3": "strong",
+    "7": "strong"
+  }
+}

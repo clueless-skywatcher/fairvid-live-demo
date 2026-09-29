@@ -1,0 +1,38 @@
+{
+  "applicant_id": "63_63",
+  "name": "Hao Li",
+  "institution": "Meridian State University",
+  "study_program": "Biomedical Engineering",
+  "graduation_year": 2023,
+  "gpa": 2.64,
+  "grades": [
+    {
+      "subject": "Tissue Engineering",
+      "grade": "B"
+    },
+    {
+      "subject": "Human Physiology",
+      "grade": "B+"
+    },
+    {
+      "subject": "Bioethics",
+      "grade": "B"
+    },
+    {
+      "subject": "Medical Imaging",
+      "grade": "B+"
+    },
+    {
+      "subject": "Biostatistics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Biomaterials",
+      "grade": "B"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/63_63/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/63_63/documents_image/transcript.png"
+  }
+}

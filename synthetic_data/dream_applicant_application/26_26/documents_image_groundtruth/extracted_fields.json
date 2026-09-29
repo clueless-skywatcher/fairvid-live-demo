@@ -1,0 +1,38 @@
+{
+  "applicant_id": "26_26",
+  "name": "Kabir Patel",
+  "institution": "Aurelia Technical University",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2025,
+  "gpa": 3.39,
+  "grades": [
+    {
+      "subject": "Control Systems",
+      "grade": "B+"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "B+"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "A"
+    },
+    {
+      "subject": "Thermodynamics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/26_26/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/26_26/documents_image/transcript.png"
+  }
+}

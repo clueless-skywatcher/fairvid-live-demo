@@ -1,0 +1,38 @@
+{
+  "applicant_id": "2_2",
+  "name": "Xia Huang",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Electronics Engineering",
+  "graduation_year": 2023,
+  "gpa": 2.77,
+  "grades": [
+    {
+      "subject": "Signal Processing",
+      "grade": "B+"
+    },
+    {
+      "subject": "Semiconductor Physics",
+      "grade": "B"
+    },
+    {
+      "subject": "Microprocessors",
+      "grade": "B+"
+    },
+    {
+      "subject": "Embedded Systems",
+      "grade": "B"
+    },
+    {
+      "subject": "VLSI Design",
+      "grade": "B"
+    },
+    {
+      "subject": "Digital Logic",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/2_2/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/2_2/documents_image/transcript.png"
+  }
+}

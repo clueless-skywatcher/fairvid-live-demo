@@ -1,0 +1,21 @@
+{
+  "applicant_id": "48_48",
+  "name": "Olivia Wilson",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "male",
+  "region": "region_b",
+  "age": 38,
+  "gpa": 3.25,
+  "test_score": 92.45,
+  "test_score_true": 92.45,
+  "english_score": 7.3,
+  "work_experience_years": 0.3,
+  "merit_score": 68.84,
+  "admit": true,
+  "answer_tiers": {
+    "0": "strong",
+    "3": "weak",
+    "4": "ai_scripted"
+  }
+}

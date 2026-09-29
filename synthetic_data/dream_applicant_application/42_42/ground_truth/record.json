@@ -1,0 +1,21 @@
+{
+  "applicant_id": "42_42",
+  "name": "Olivia Clark",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 27,
+  "gpa": 2.89,
+  "test_score": 71.32,
+  "test_score_true": 71.32,
+  "english_score": 5.4,
+  "work_experience_years": 0.3,
+  "merit_score": 56.78,
+  "admit": false,
+  "answer_tiers": {
+    "0": "weak",
+    "1": "off_topic",
+    "7": "strong"
+  }
+}

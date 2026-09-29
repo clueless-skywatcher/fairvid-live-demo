@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 2,
+    "question": "Explain the concept of tissue engineering to someone without a medical background.",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 173,
+    "transcript_file": "2_explain_the_concept_of_tissue_engineering_to_someo.txt"
+  },
+  {
+    "question_index": 5,
+    "question": "How do you plan to handle the ethical considerations involved in genetic engineering or human trials?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 241,
+    "transcript_file": "5_how_do_you_plan_to_handle_the_ethical_consideratio.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "Where do you see the intersection of AI and biomedical engineering in the next decade?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 282,
+    "transcript_file": "7_where_do_you_see_the_intersection_of_ai_and_biomed.txt"
+  }
+]

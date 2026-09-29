@@ -1,0 +1,21 @@
+{
+  "applicant_id": "32_32",
+  "name": "Meera Iyer",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "female",
+  "region": "region_a",
+  "age": 36,
+  "gpa": 2.77,
+  "test_score": 78.92,
+  "test_score_true": 78.92,
+  "english_score": 6.7,
+  "work_experience_years": 0.2,
+  "merit_score": 62.99,
+  "admit": false,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "1": "off_topic",
+    "2": "weak"
+  }
+}

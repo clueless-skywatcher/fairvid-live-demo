@@ -1,0 +1,21 @@
+{
+  "applicant_id": "79_79",
+  "name": "Ife Dube",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "nonbinary",
+  "region": "region_d",
+  "age": 34,
+  "gpa": 3.5,
+  "test_score": 48.73,
+  "test_score_true": 60.73,
+  "english_score": 6.7,
+  "work_experience_years": 0.3,
+  "merit_score": 65.01,
+  "admit": true,
+  "answer_tiers": {
+    "0": "ai_scripted",
+    "4": "off_topic",
+    "6": "ai_scripted"
+  }
+}

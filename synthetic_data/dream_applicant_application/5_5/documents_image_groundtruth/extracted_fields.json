@@ -1,0 +1,38 @@
+{
+  "applicant_id": "5_5",
+  "name": "Saanvi Reddy",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2025,
+  "gpa": 2.71,
+  "grades": [
+    {
+      "subject": "Propulsion Systems",
+      "grade": "A-"
+    },
+    {
+      "subject": "Structural Analysis",
+      "grade": "A-"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "B"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "B+"
+    },
+    {
+      "subject": "Control Systems",
+      "grade": "B+"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/5_5/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/5_5/documents_image/transcript.png"
+  }
+}

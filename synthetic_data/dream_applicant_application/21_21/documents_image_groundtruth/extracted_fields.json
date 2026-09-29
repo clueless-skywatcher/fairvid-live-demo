@@ -1,0 +1,38 @@
+{
+  "applicant_id": "21_21",
+  "name": "Anaya Nair",
+  "institution": "Lakeside University of Applied Sciences",
+  "study_program": "Biomedical Engineering",
+  "graduation_year": 2022,
+  "gpa": 3.83,
+  "grades": [
+    {
+      "subject": "Biomaterials",
+      "grade": "A"
+    },
+    {
+      "subject": "Human Physiology",
+      "grade": "A"
+    },
+    {
+      "subject": "Tissue Engineering",
+      "grade": "A"
+    },
+    {
+      "subject": "Medical Imaging",
+      "grade": "A"
+    },
+    {
+      "subject": "Biomechanics",
+      "grade": "A"
+    },
+    {
+      "subject": "Biostatistics",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/21_21/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/21_21/documents_image/transcript.png"
+  }
+}

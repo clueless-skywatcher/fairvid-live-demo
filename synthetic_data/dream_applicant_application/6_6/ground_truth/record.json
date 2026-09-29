@@ -1,0 +1,21 @@
+{
+  "applicant_id": "6_6",
+  "name": "Aarav Sharma",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Interview Environmental Engineering and Management2",
+  "gender": "nonbinary",
+  "region": "region_a",
+  "age": 29,
+  "gpa": 3.43,
+  "test_score": 71.43,
+  "test_score_true": 71.43,
+  "english_score": 6.2,
+  "work_experience_years": 1.8,
+  "merit_score": 71.43,
+  "admit": true,
+  "answer_tiers": {
+    "1": "weak",
+    "2": "weak",
+    "3": "weak"
+  }
+}

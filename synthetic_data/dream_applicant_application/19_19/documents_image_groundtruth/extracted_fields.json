@@ -1,0 +1,38 @@
+{
+  "applicant_id": "19_19",
+  "name": "Lucas Clark",
+  "institution": "Cordoba Polytechnic",
+  "study_program": "Aerospace Engineering",
+  "graduation_year": 2025,
+  "gpa": 2.6,
+  "grades": [
+    {
+      "subject": "Control Systems",
+      "grade": "B+"
+    },
+    {
+      "subject": "Aerodynamics",
+      "grade": "B"
+    },
+    {
+      "subject": "Propulsion Systems",
+      "grade": "B+"
+    },
+    {
+      "subject": "Flight Mechanics",
+      "grade": "B+"
+    },
+    {
+      "subject": "Fluid Dynamics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Materials Science",
+      "grade": "A-"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/19_19/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/19_19/documents_image/transcript.png"
+  }
+}

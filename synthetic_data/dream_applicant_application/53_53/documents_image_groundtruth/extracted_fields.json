@@ -1,0 +1,38 @@
+{
+  "applicant_id": "53_53",
+  "name": "Rohan Iyer",
+  "institution": "Aurelia Technical University",
+  "study_program": "Biomedical Engineering",
+  "graduation_year": 2023,
+  "gpa": 3.5,
+  "grades": [
+    {
+      "subject": "Tissue Engineering",
+      "grade": "A"
+    },
+    {
+      "subject": "Medical Imaging",
+      "grade": "A-"
+    },
+    {
+      "subject": "Biomechanics",
+      "grade": "A-"
+    },
+    {
+      "subject": "Human Physiology",
+      "grade": "A-"
+    },
+    {
+      "subject": "Biostatistics",
+      "grade": "A"
+    },
+    {
+      "subject": "Biomaterials",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/53_53/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/53_53/documents_image/transcript.png"
+  }
+}

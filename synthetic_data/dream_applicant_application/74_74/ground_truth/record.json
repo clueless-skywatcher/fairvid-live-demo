@@ -1,0 +1,21 @@
+{
+  "applicant_id": "74_74",
+  "name": "Kabir Nair",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec 2",
+  "gender": "female",
+  "region": "region_a",
+  "age": 21,
+  "gpa": 2.78,
+  "test_score": 76.63,
+  "test_score_true": 76.63,
+  "english_score": 5.3,
+  "work_experience_years": 0.7,
+  "merit_score": 61.97,
+  "admit": false,
+  "answer_tiers": {
+    "1": "weak",
+    "3": "ai_scripted",
+    "4": "weak"
+  }
+}

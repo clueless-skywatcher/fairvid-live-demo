@@ -1,0 +1,21 @@
+{
+  "applicant_id": "15_15",
+  "name": "Vihaan Iyer",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "male",
+  "region": "region_a",
+  "age": 37,
+  "gpa": 2.96,
+  "test_score": 70.42,
+  "test_score_true": 70.42,
+  "english_score": 5.9,
+  "work_experience_years": 0.4,
+  "merit_score": 58.35,
+  "admit": false,
+  "answer_tiers": {
+    "1": "strong",
+    "5": "ai_scripted",
+    "7": "ai_scripted"
+  }
+}

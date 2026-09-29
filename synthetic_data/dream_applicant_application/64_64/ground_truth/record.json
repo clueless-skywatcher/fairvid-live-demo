@@ -1,0 +1,21 @@
+{
+  "applicant_id": "64_64",
+  "name": "Naila Mensah",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "male",
+  "region": "region_d",
+  "age": 25,
+  "gpa": 2.84,
+  "test_score": 60.93,
+  "test_score_true": 72.93,
+  "english_score": 6.8,
+  "work_experience_years": 0.7,
+  "merit_score": 63.81,
+  "admit": true,
+  "answer_tiers": {
+    "5": "ai_scripted",
+    "6": "weak",
+    "7": "strong"
+  }
+}

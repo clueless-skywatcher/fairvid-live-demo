@@ -1,0 +1,21 @@
+{
+  "applicant_id": "47_47",
+  "name": "Mia Wilson",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f 2",
+  "gender": "nonbinary",
+  "region": "region_b",
+  "age": 24,
+  "gpa": 3.15,
+  "test_score": 67.54,
+  "test_score_true": 67.54,
+  "english_score": 7.0,
+  "work_experience_years": 0.4,
+  "merit_score": 62.98,
+  "admit": false,
+  "answer_tiers": {
+    "1": "weak",
+    "2": "strong",
+    "3": "off_topic"
+  }
+}

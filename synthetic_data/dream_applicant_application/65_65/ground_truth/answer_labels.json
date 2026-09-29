@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 4,
+    "question": "How do you approach power management in battery-operated IoT devices?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 245,
+    "transcript_file": "4_how_do_you_approach_power_management_in_battery_op.txt"
+  },
+  {
+    "question_index": 6,
+    "question": "What was the most complex circuit you have designed and tested?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 316,
+    "transcript_file": "6_what_was_the_most_complex_circuit_you_have_designe.txt"
+  },
+  {
+    "question_index": 7,
+    "question": "How do communication protocols like SPI and I2C differ in application?",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 169,
+    "transcript_file": "7_how_do_communication_protocols_like_spi_and_i2c_di.txt"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "applicant_id": "76_76",
+  "name": "Emma Clark",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2025,
+  "gpa": 3.5,
+  "grades": [
+    {
+      "subject": "Hydrology",
+      "grade": "A"
+    },
+    {
+      "subject": "Sustainability Science",
+      "grade": "A-"
+    },
+    {
+      "subject": "Renewable Energy",
+      "grade": "A"
+    },
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "A"
+    },
+    {
+      "subject": "Environmental Chemistry",
+      "grade": "A"
+    },
+    {
+      "subject": "Water Resources",
+      "grade": "A"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/76_76/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/76_76/documents_image/transcript.png"
+  }
+}

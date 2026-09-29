@@ -1,0 +1,21 @@
+{
+  "applicant_id": "3_3",
+  "name": "Mei Zhang",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "female",
+  "region": "region_c",
+  "age": 21,
+  "gpa": 3.08,
+  "test_score": 67.76,
+  "test_score_true": 67.76,
+  "english_score": 4.5,
+  "work_experience_years": 3.3,
+  "merit_score": 64.97,
+  "admit": true,
+  "answer_tiers": {
+    "2": "weak",
+    "6": "strong",
+    "7": "strong"
+  }
+}

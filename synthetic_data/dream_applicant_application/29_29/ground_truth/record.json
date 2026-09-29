@@ -1,0 +1,21 @@
+{
+  "applicant_id": "29_29",
+  "name": "Vihaan Sharma",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "nonbinary",
+  "region": "region_a",
+  "age": 34,
+  "gpa": 3.02,
+  "test_score": 59.67,
+  "test_score_true": 59.67,
+  "english_score": 5.4,
+  "work_experience_years": 4.2,
+  "merit_score": 63.25,
+  "admit": false,
+  "answer_tiers": {
+    "4": "weak",
+    "5": "off_topic",
+    "7": "weak"
+  }
+}

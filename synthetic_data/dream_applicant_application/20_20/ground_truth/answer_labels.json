@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "How does eutrophication occur and what are its effects?",
+    "tier": "off_topic",
+    "expected_score_low": 18,
+    "expected_score_high": 52,
+    "is_ai_scripted": false,
+    "word_count": 153,
+    "transcript_file": "0_how_does_eutrophication_occur_and_what_are_its_eff.txt"
+  },
+  {
+    "question_index": 1,
+    "question": "What methods are effective for removing heavy metals from soil?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 253,
+    "transcript_file": "1_what_methods_are_effective_for_removing_heavy_meta.txt"
+  },
+  {
+    "question_index": 2,
+    "question": "Discuss the global challenges of plastic pollution in oceans.",
+    "tier": "ai_scripted",
+    "expected_score_low": 40,
+    "expected_score_high": 72,
+    "is_ai_scripted": true,
+    "word_count": 221,
+    "transcript_file": "2_discuss_the_global_challenges_of_plastic_pollution.txt"
+  }
+]

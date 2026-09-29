@@ -1,0 +1,32 @@
+[
+  {
+    "question_index": 0,
+    "question": "What are the key factors in selecting an airfoil shape for a wing?",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 193,
+    "transcript_file": "0_what_are_the_key_factors_in_selecting_an_airfoil_s.txt"
+  },
+  {
+    "question_index": 2,
+    "question": "What are the challenges of hypersonic flight?",
+    "tier": "weak",
+    "expected_score_low": 32,
+    "expected_score_high": 62,
+    "is_ai_scripted": false,
+    "word_count": 228,
+    "transcript_file": "2_what_are_the_challenges_of_hypersonic_flight.txt"
+  },
+  {
+    "question_index": 3,
+    "question": "Explain the four forces of flight.",
+    "tier": "strong",
+    "expected_score_low": 68,
+    "expected_score_high": 100,
+    "is_ai_scripted": false,
+    "word_count": 126,
+    "transcript_file": "3_explain_the_four_forces_of_flight.txt"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "58_58",
+  "name": "Kwame Sow",
+  "study_program": "Electronics Engineering",
+  "study_program_raw": "Master's degree in Electronics Engineering \u26a1",
+  "gender": "male",
+  "region": "region_d",
+  "age": 26,
+  "gpa": 2.36,
+  "test_score": 57.42,
+  "test_score_true": 69.42,
+  "english_score": 7.6,
+  "work_experience_years": 1.8,
+  "merit_score": 63.29,
+  "admit": false,
+  "answer_tiers": {
+    "1": "ai_scripted",
+    "4": "strong",
+    "5": "weak"
+  }
+}

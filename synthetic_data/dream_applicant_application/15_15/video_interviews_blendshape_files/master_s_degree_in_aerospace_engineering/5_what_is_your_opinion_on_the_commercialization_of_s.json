@@ -1,0 +1,15 @@
+{
+  "Mean head speed": 2.6,
+  "Rapid movement": 11.0,
+  "Swing movement": 3.8,
+  "Mean body movement": 0.019,
+  "Composite score": 69.9,
+  "Gaze Aversion": 0.34,
+  "Reading Prob": 64.1,
+  "Look Down Intensity": 0.44,
+  "Blink Rate (BPM)": 6.1,
+  "Smile Frequency": 7.8,
+  "Average Smile Intensity": 0.15,
+  "Is Speaking": true,
+  "Jaw Variance": 0.079
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "36_36",
+  "name": "Tendai Okafor",
+  "study_program": "Aerospace Engineering",
+  "study_program_raw": "Master's degree in Aerospace Engineering \ud83d\udef0\ufe0f",
+  "gender": "female",
+  "region": "region_d",
+  "age": 21,
+  "gpa": 2.93,
+  "test_score": 57.91,
+  "test_score_true": 69.91,
+  "english_score": 5.6,
+  "work_experience_years": 0.3,
+  "merit_score": 64.03,
+  "admit": true,
+  "answer_tiers": {
+    "0": "strong",
+    "1": "weak",
+    "6": "strong"
+  }
+}

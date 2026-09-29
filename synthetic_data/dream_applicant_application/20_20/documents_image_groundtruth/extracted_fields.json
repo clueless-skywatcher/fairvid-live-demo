@@ -1,0 +1,38 @@
+{
+  "applicant_id": "20_20",
+  "name": "Feng Liu",
+  "institution": "Northgate Institute of Technology",
+  "study_program": "Environmental Engineering and Management",
+  "graduation_year": 2023,
+  "gpa": 2.84,
+  "grades": [
+    {
+      "subject": "Waste Management",
+      "grade": "B+"
+    },
+    {
+      "subject": "Renewable Energy",
+      "grade": "B+"
+    },
+    {
+      "subject": "Water Resources",
+      "grade": "A-"
+    },
+    {
+      "subject": "Life Cycle Assessment",
+      "grade": "B"
+    },
+    {
+      "subject": "Environmental Policy",
+      "grade": "B"
+    },
+    {
+      "subject": "Hydrology",
+      "grade": "B"
+    }
+  ],
+  "images": {
+    "diploma": "dream_applicant_application/20_20/documents_image/diploma.png",
+    "transcript": "dream_applicant_application/20_20/documents_image/transcript.png"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "applicant_id": "35_35",
+  "name": "Meera Reddy",
+  "study_program": "Biomedical Engineering",
+  "study_program_raw": "Master's degree in Biomedical Engineering \ud83e\uddec",
+  "gender": "nonbinary",
+  "region": "region_a",
+  "age": 23,
+  "gpa": 3.4,
+  "test_score": 76.63,
+  "test_score_true": 76.63,
+  "english_score": 7.0,
+  "work_experience_years": 0.4,
+  "merit_score": 70.45,
+  "admit": true,
+  "answer_tiers": {
+    "2": "weak",
+    "5": "ai_scripted",
+    "7": "ai_scripted"
+  }
+}

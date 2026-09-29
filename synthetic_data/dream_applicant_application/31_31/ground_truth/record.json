@@ -1,0 +1,21 @@
+{
+  "applicant_id": "31_31",
+  "name": "Ife Dube",
+  "study_program": "Environmental Engineering and Management",
+  "study_program_raw": "Msc in Environmental Engineering and Management",
+  "gender": "female",
+  "region": "region_d",
+  "age": 23,
+  "gpa": 3.18,
+  "test_score": 62.08,
+  "test_score_true": 74.08,
+  "english_score": 8.6,
+  "work_experience_years": 2.2,
+  "merit_score": 77.18,
+  "admit": true,
+  "answer_tiers": {
+    "1": "strong",
+    "4": "ai_scripted",
+    "7": "ai_scripted"
+  }
+}
