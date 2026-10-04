@@ -10,8 +10,6 @@ reading from a script: high reading probability, more gaze aversion and downward
 gaze, and little smiling.
 """
 
-from __future__ import annotations
-
 import numpy as np
 
 # tier -> (composite, reading_prob, gaze_aversion, smile_freq) sampling ranges

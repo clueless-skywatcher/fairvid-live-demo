@@ -4,8 +4,6 @@ It reads the TSV from the fair-vid GitHub repo (the same file the RecordVideo
 notebook uses) and caches it locally so repeated runs work offline.
 """
 
-from __future__ import annotations
-
 import csv
 import urllib.request
 from collections import defaultdict

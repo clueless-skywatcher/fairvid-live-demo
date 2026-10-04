@@ -4,8 +4,6 @@ Names are grouped by region only to give the cohort some surface variety. The
 groupings are arbitrary and carry no real-world meaning.
 """
 
-from __future__ import annotations
-
 import numpy as np
 
 FIRST_NAMES = {

@@ -15,8 +15,6 @@ And, for the whole cohort, under synthetic_data/ :
   cohort_manifest.json                  run settings + summary counts
 """
 
-from __future__ import annotations
-
 import csv
 import json
 from dataclasses import asdict

@@ -10,8 +10,6 @@ the train/test split, so the explain and fairness stages can reuse exactly the
 same fitted objects.
 """
 
-from __future__ import annotations
-
 from dataclasses import dataclass
 
 import numpy as np

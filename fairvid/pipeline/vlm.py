@@ -12,8 +12,6 @@ Run Ollama once before the demo:
     ollama pull gemma3:4b        # 4b is fast enough for a live demo; 12b is sharper
 """
 
-from __future__ import annotations
-
 import os
 from pathlib import Path
 
@@ -23,14 +21,27 @@ PROMPT = ("Describe a given image clearly and in detail so that a person who "
           "cannot see it can understand it.")
 
 
+def _model_names(listed) -> list[str]:
+    models = listed.get("models", []) if isinstance(listed, dict) else getattr(listed, "models", [])
+    names = []
+    for item in models:
+        if isinstance(item, dict):
+            names.append(item.get("model") or item.get("name") or "")
+        else:
+            names.append(getattr(item, "model", "") or getattr(item, "name", "") or "")
+    return [name for name in names if name]
+
+
 def ollama_available(model: str | None = None) -> bool:
-    """True if the Ollama server is reachable (and the model is present, if given)."""
+    """True if the Ollama server is reachable and, when asked, has ``model``."""
     try:
         import ollama
-        names = [m.get("model", "") for m in ollama.list().get("models", [])]
-        return any(model == n or model is None for n in names) if model else bool(names) or True
+        names = _model_names(ollama.list())
     except Exception:
         return False
+    if model is None:
+        return bool(names)
+    return any(name == model or name.split(":")[0] == model for name in names)
 
 
 def _offline_description(image_path: Path) -> str:

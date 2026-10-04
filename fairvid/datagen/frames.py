@@ -7,19 +7,12 @@ and the real ones identically.
 
 Each description describes the interview setting. Some settings are clean and
 professional, others are distracting; fusion turns this into a simple
-visual-distraction feature via the keywords below. The setting is mostly
+visual-distraction feature via ``config.DISTRACTION_KEYWORDS``. The setting is mostly
 independent of answer quality (a good candidate can sit in a messy room), with
 only a slight lean, so the feature is realistically weak.
 """
 
-from __future__ import annotations
-
 import numpy as np
-
-# Keywords fusion looks for to flag a distracting setting. Keep in sync with
-# pipeline/fusion.py.
-DISTRACTION_KEYWORDS = ("cluttered", "dim", "messy", "dark", "busy background",
-                        "poorly lit", "noisy", "untidy")
 
 _CLEAN = (
     "The candidate is seated in a well-lit, tidy room, centred in the frame and "

@@ -15,8 +15,6 @@ Returns a `Cohort` holding the feature matrix X, feature names, the admit label
 y, and the protected-attribute column, ready for scoring and fairness work.
 """
 
-from __future__ import annotations
-
 import json
 from dataclasses import dataclass
 from pathlib import Path
@@ -26,27 +24,36 @@ import numpy as np
 from .. import config
 from .grader import grade_transcript
 
-# Keywords that mark a distracting interview setting in a frame description.
-# Kept in sync with datagen/frames.py so real and synthetic descriptions agree.
-_DISTRACTION_KEYWORDS = ("cluttered", "dim", "messy", "dark", "busy background",
-                         "poorly lit", "noisy", "untidy")
 
-# The feature columns fed to the scoring model, in order. The last four come from
-# the perceptual stages (MediaPipe behaviour + vision-LLM frame description),
-# read from the same folders the Colab notebooks write to.
-FEATURE_NAMES = [
-    "gpa",
-    "test_score",
-    "english_score",
-    "work_experience_years",
-    "interview_overall_mean",
-    "interview_relevance_mean",
-    "interview_ai_flag_rate",
-    "behaviour_composite",
-    "behaviour_reading_prob",
-    "behaviour_smile",
-    "visual_distraction",
-]
+@dataclass(frozen=True)
+class FeatureSpec:
+    """One column of the fused feature vector.
+
+    ``mutable`` is true when a counterfactual may change it. Academic record
+    fields stay fixed: a suggested fix cannot invent a new GPA.
+    """
+
+    name: str
+    mutable: bool
+    low: float
+    high: float
+
+
+# Order is the contract shared by fusion, training, and the live scorer.
+FEATURE_SPECS = (
+    FeatureSpec("gpa", False, 0.0, 4.0),
+    FeatureSpec("test_score", False, 0.0, 100.0),
+    FeatureSpec("english_score", False, 0.0, 9.0),
+    FeatureSpec("work_experience_years", False, 0.0, 40.0),
+    FeatureSpec("interview_overall_mean", True, 0.0, 100.0),
+    FeatureSpec("interview_relevance_mean", True, 1.0, 10.0),
+    FeatureSpec("interview_ai_flag_rate", True, 0.0, 1.0),
+    FeatureSpec("behaviour_composite", True, 0.0, 100.0),
+    FeatureSpec("behaviour_reading_prob", True, 0.0, 100.0),
+    FeatureSpec("behaviour_smile", True, 0.0, 100.0),
+    FeatureSpec("visual_distraction", True, 0.0, 1.0),
+)
+FEATURE_NAMES = [spec.name for spec in FEATURE_SPECS]
 
 
 @dataclass
@@ -118,7 +125,7 @@ def _aggregate_frames(applicant_dir: Path) -> float:
             texts.append(txt.read_text(encoding="utf-8").lower())
     if not texts:
         return 0.0
-    flagged = sum(any(k in t for k in _DISTRACTION_KEYWORDS) for t in texts)
+    flagged = sum(any(k in t for k in config.DISTRACTION_KEYWORDS) for t in texts)
     return flagged / len(texts)
 
 

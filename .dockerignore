@@ -1,0 +1,12 @@
+.git
+.venv
+venv
+var
+__pycache__
+**/__pycache__
+*.pyc
+.pytest_cache
+colab_notebooks
+tests
+docs
+*.md

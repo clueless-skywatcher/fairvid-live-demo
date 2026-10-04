@@ -8,8 +8,6 @@ A light amount of noise and rotation is added so the images resemble real
 scans rather than crisp screenshots.
 """
 
-from __future__ import annotations
-
 from pathlib import Path
 
 import numpy as np

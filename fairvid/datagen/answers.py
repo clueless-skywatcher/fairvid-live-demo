@@ -16,8 +16,6 @@ fast, offline, and reproducible. It is good enough to exercise the grading
 stage; swapping in a real LLM later only changes this file.
 """
 
-from __future__ import annotations
-
 from dataclasses import dataclass
 
 import numpy as np

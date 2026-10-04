@@ -8,13 +8,12 @@ the Colab notebooks and returns their outputs:
   3. OpenCV   -> middle frame JPEG
   4. Ollama   -> frame description     (Gemma-3, with offline fallback)
   5. MediaPipe-> behaviour metrics
-  6. grader   -> transcript grade JSON (offline auditor stand-in)
+  6. librosa  -> tempo, pauses, pitch (emotion model is opt-in)
+  7. grader   -> transcript grade JSON (offline auditor stand-in)
 
 Every stage is wrapped: if a tool is missing it records an error and the rest
 continue, so the demo never hard-crashes.
 """
-
-from __future__ import annotations
 
 import subprocess
 import time
@@ -92,7 +91,11 @@ def process(video_path: str, question: str, workdir: str) -> dict:
 
     video_for_cv = stage("convert", lambda: to_mp4(src, mp4)) or src
     stage("audio", lambda: extract_audio(src, wav))
-    out["transcript"] = stage("transcribe", lambda: transcribe(wav)) if wav.exists() else None
+    if wav.exists():
+        out["audio_affect"] = stage("audio_affect", lambda: _audio_affect(wav))
+        out["transcript"] = stage("transcribe", lambda: transcribe(wav))
+    else:
+        out["transcript"] = None
     got_frame = stage("frame", lambda: middle_frame(video_for_cv, jpg))
     if got_frame and jpg.exists():
         out["frame_file"] = str(jpg)
@@ -106,3 +109,8 @@ def process(video_path: str, question: str, workdir: str) -> dict:
 def _behaviour(video: Path) -> dict:
     from ..pipeline.behaviour_video import analyse_video
     return analyse_video(str(video))
+
+
+def _audio_affect(wav: Path) -> dict:
+    from ..pipeline.audio_affect import analyze_audio
+    return analyze_audio(wav)

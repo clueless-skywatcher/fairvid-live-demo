@@ -50,6 +50,30 @@ python3 -m fairvid.webapp
 
 The UI badge then shows `ollama gemma3:4b`.
 
+## Event-driven admissions flow
+
+Each step is a Kafka consumer. The progress manager answers
+"how far is this application?" and, after scoring, the student is emailed the
+decision and what to improve. Diagrams and the topic table are in
+[docs/architecture.md](docs/architecture.md).
+
+```bash
+export FAIRVID_KAFKA_BOOTSTRAP=localhost:9092
+python -m fairvid.events                 # list consumers and topics
+python -m fairvid.events.manager         # http://127.0.0.1:5001
+python -m fairvid.events.consumers.intake
+# start the other consumers the same way; see the architecture page
+```
+
+Without a broker, one case runs in-process and the letter lands in `var/outbox/`:
+
+```bash
+python -m fairvid.events.local
+```
+
+The full agent map, with sequence and class diagrams, is in
+[docs/architecture.md](docs/architecture.md).
+
 ## Layout
 
 ```

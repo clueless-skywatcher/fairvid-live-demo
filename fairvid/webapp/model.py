@@ -8,8 +8,6 @@ interview, behaviour and frame features, returns the admission probability and
 decision, and the SHAP / LIME / counterfactual explanations.
 """
 
-from __future__ import annotations
-
 import numpy as np
 
 from .. import config

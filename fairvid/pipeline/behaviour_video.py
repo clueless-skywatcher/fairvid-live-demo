@@ -9,8 +9,6 @@ record. If MediaPipe/OpenCV are missing it raises, and the caller falls back.
 The Face Landmarker model file is downloaded once on first use.
 """
 
-from __future__ import annotations
-
 import os
 import urllib.request
 from collections import deque, defaultdict
@@ -70,8 +68,14 @@ def _blink_rate(h, ts):
 
 
 def _smiling(h):
-    s = (np.array(h['mouthSmileLeft']) + np.array(h['mouthSmileRight'])) / 2.0
-    return float(np.mean(s)), float(np.sum(s > 0.5) / len(s) * 100) if len(s) else (0.0, 0.0)
+    left = h.get("mouthSmileLeft") or []
+    right = h.get("mouthSmileRight") or []
+    if not left or not right:
+        return 0.0, 0.0
+    s = (np.array(left) + np.array(right)) / 2.0
+    if len(s) == 0:
+        return 0.0, 0.0
+    return float(np.mean(s)), float(np.sum(s > 0.5) / len(s) * 100)
 
 
 def analyse_video(video_path: str) -> dict:

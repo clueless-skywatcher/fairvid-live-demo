@@ -9,11 +9,12 @@ SHAP uses the `shap` library when installed; otherwise it falls back to exact
 Shapley values, which are cheap to compute in closed form for our linear model.
 """
 
-from __future__ import annotations
-
 import numpy as np
 
+from .fusion import FEATURE_SPECS
 from .scoring import ScoreModel
+
+_SPEC = {spec.name: spec for spec in FEATURE_SPECS}
 
 
 # --- SHAP --------------------------------------------------------------------
@@ -87,32 +88,54 @@ def lime_explanation(sm: ScoreModel, x_raw: np.ndarray, *,
 def counterfactual(sm: ScoreModel, x_raw: np.ndarray, *,
                    target: int = 1, threshold: float = 0.5,
                    step: float = 0.02, max_iter: int = 2000) -> dict:
-    """Find a small, realistic change that flips the decision to `target`.
+    """Find a small change that flips the decision to `target`.
 
-    We nudge the features along the model's gradient (in standardised space)
-    until the prediction crosses the threshold, then report the change needed in
-    the original units. This is the single-counterfactual core of the DICE idea
-    (Afzaal et al.); generating a diverse set is left as future work.
+    Only interview, behaviour, and setting features may move. Academic fields
+    (GPA, test, English, work experience) stay at the applicant's real values,
+    and every feature is clipped to its allowed range. This is the
+    single-counterfactual core of the DICE idea (Afzaal et al.).
     """
-    coef = sm.model.coef_[0]
+    names = list(sm.feature_names)
+    original = np.asarray(x_raw, dtype=float).reshape(-1).copy()
+    coef = sm.model.coef_[0].astype(float).copy()
+    for i, name in enumerate(names):
+        spec = _SPEC.get(name)
+        if spec is not None and not spec.mutable:
+            coef[i] = 0.0
     direction = coef if target == 1 else -coef
-    xs = sm.scaler.transform(x_raw.reshape(1, -1))[0].copy()
+    xs = sm.scaler.transform(original.reshape(1, -1))[0].copy()
+
+    def _clip_back(xs_now: np.ndarray) -> np.ndarray:
+        raw = sm.scaler.inverse_transform(xs_now.reshape(1, -1))[0]
+        for i, name in enumerate(names):
+            spec = _SPEC.get(name)
+            if spec is None:
+                continue
+            if not spec.mutable:
+                raw[i] = original[i]
+            else:
+                raw[i] = float(np.clip(raw[i], spec.low, spec.high))
+        return sm.scaler.transform(raw.reshape(1, -1))[0]
 
     start_p = float(sm.model.predict_proba(xs.reshape(1, -1))[0, 1])
     reached = (start_p >= threshold) == bool(target)
     it = 0
     unit = direction / (np.linalg.norm(direction) + 1e-9)
     while not reached and it < max_iter:
-        xs = xs + step * unit
+        xs = _clip_back(xs + step * unit)
         p = float(sm.model.predict_proba(xs.reshape(1, -1))[0, 1])
         reached = (p >= threshold) == bool(target)
         it += 1
 
     x_new_raw = sm.scaler.inverse_transform(xs.reshape(1, -1))[0]
+    for i, name in enumerate(names):
+        spec = _SPEC.get(name)
+        if spec is not None and not spec.mutable:
+            x_new_raw[i] = original[i]
     deltas = {
-        name: round(float(x_new_raw[i] - x_raw[i]), 3)
+        name: round(float(x_new_raw[i] - original[i]), 3)
         for i, name in enumerate(sm.feature_names)
-        if abs(x_new_raw[i] - x_raw[i]) > 1e-3
+        if abs(x_new_raw[i] - original[i]) > 1e-3
     }
     return {
         "start_probability": round(start_p, 3),

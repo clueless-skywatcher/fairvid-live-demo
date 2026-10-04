@@ -6,17 +6,20 @@ Run:
     python -m fairvid.webapp        # then open http://127.0.0.1:5000
 """
 
-from __future__ import annotations
-
+import os
+import re
 import time
 from pathlib import Path
 
-from flask import Flask, request, send_from_directory, render_template_string
+from flask import Flask, abort, request, send_from_directory, render_template_string
 
+from ..config import DISTRACTION_KEYWORDS
 from ..datagen.questions import load_questions
-from ..datagen.frames import DISTRACTION_KEYWORDS
 from . import model
 from .process_video import process
+
+_RUN_ID = re.compile(r"^\d{10,16}$")
+_SAFE_NAME = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,80}$")
 
 app = Flask(__name__)
 RUNS = Path("/tmp/fairvid_runs")
@@ -210,17 +213,25 @@ def do_process():
 
 @app.route("/candidate/<name>")
 def candidate_doc(name):
+    if not _SAFE_NAME.match(name):
+        abort(404)
     return send_from_directory(model.candidate_doc_dir(), name)
 
 
 @app.route("/run/<runid>/<name>")
 def run_file(runid, name):
+    # run ids are millisecond timestamps. Reject anything else so ".." cannot
+    # walk out of the run folder.
+    if not _RUN_ID.match(runid) or not _SAFE_NAME.match(name):
+        abort(404)
     return send_from_directory(RUNS / runid, name)
 
 
 def main():
-    print("FAIR-VID demo at http://127.0.0.1:5000  (Ctrl-C to stop)")
-    app.run(host="127.0.0.1", port=5000, debug=False)
+    host = os.environ.get("FAIRVID_HOST", "127.0.0.1")
+    port = int(os.environ.get("FAIRVID_PORT", "5000"))
+    print(f"FAIR-VID demo at http://{host}:{port}  (Ctrl-C to stop)")
+    app.run(host=host, port=port, debug=False)
 
 
 if __name__ == "__main__":

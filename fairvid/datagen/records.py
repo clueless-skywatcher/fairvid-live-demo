@@ -12,8 +12,6 @@ test score will then look unfair to that group, giving the mitigation step
 something real to correct.
 """
 
-from __future__ import annotations
-
 from dataclasses import dataclass, asdict, field
 
 import numpy as np

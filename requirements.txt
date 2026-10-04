@@ -9,3 +9,4 @@ opencv-python-headless  # video decode + middle-frame extraction
 faster-whisper          # speech-to-text (downloads the "base" model on first use)
 mediapipe               # facial-behaviour metrics
 ollama                  # optional: real Gemma frame descriptions (offline fallback otherwise)
+kafka-python            # topic consumers for the event-driven admissions flow

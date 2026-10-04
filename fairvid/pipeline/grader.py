@@ -10,8 +10,6 @@ realistic interview signal and to let us measure grade conformance against the
 ground-truth tiers. Swap in the real Gemini stage in Colab for final numbers.
 """
 
-from __future__ import annotations
-
 import re
 
 from ..datagen.answers import LLM_TELL_WORDS
