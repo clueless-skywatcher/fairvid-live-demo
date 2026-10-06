@@ -70,7 +70,7 @@ def transcribe(wav: Path) -> str:
 def process(video_path: str, question: str, workdir: str) -> dict:
     """Run all stages; return a results dict with per-stage status."""
     from ..pipeline import vlm
-    from ..pipeline.grader import grade_transcript
+    from ..pipeline.grader import audit_transcript
 
     src = Path(video_path)
     work = Path(workdir)
@@ -102,7 +102,7 @@ def process(video_path: str, question: str, workdir: str) -> dict:
         out["frame_description"] = stage("vlm_describe", lambda: vlm.describe_image(jpg))
     out["behaviour"] = stage("behaviour", lambda: _behaviour(video_for_cv))
     if out.get("transcript"):
-        out["grade"] = stage("grade", lambda: grade_transcript(question, out["transcript"]))
+        out["grade"] = stage("grade", lambda: audit_transcript(question, out["transcript"]))
     return out
 
 

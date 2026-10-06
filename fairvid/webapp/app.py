@@ -142,6 +142,7 @@ RESULTS = """
 {% if r.frame_url %}<img class="frame" src="{{r.frame_url}}">{% endif %}
 {% if r.frame_description %}<p class="mut" style="margin-top:8px">backend:
 <span class="badge {{'ok' if r.frame_description.backend=='ollama' else 'bad'}}">{{r.frame_description.backend}} {{r.frame_description.model}}</span></p>
+{% if r.frame_description.error %}<p class="mut">{{ r.frame_description.error }}</p>{% endif %}
 <pre>{{r.frame_description.text}}</pre>{% endif %}</div>
 </div>
 
@@ -151,7 +152,10 @@ RESULTS = """
 {% else %}<p class="mut">not available</p>{% endif %}</div>
 <div class="card"><h2>Grade (transcript auditor)</h2>
 {% if r.grade %}<table>
+<tr><td>Grader</td><td>{{ r.grade.backend }}{% if r.grade.model %} · {{ r.grade.model }}{% endif %}</td></tr>
+{% if r.grade.error %}<tr><td>Model error</td><td>{{ r.grade.error }}</td></tr>{% endif %}
 <tr><td>Overall</td><td><b>{{r.grade.overall_score}}/100</b></td></tr>
+{% if r.grade.executive_summary %}<tr><td>Summary</td><td>{{ r.grade.executive_summary }}</td></tr>{% endif %}
 <tr><td>Relevance</td><td>{{r.grade.metrics.relevance_score}}/10</td></tr>
 <tr><td>Clarity</td><td>{{r.grade.metrics.clarity_score}}/10</td></tr>
 <tr><td>Structure</td><td>{{r.grade.metrics.structure_score}}/10</td></tr>

@@ -150,8 +150,8 @@ def handle_grade(event: dict) -> list[tuple[str, dict]]:
     transcript = payload.get("transcript") or ""
     question = payload.get("question") or ""
     try:
-        from ..pipeline.grader import grade_transcript
-        grade = grade_transcript(question, transcript) if transcript else None
+        from ..pipeline.grader import audit_transcript
+        grade = audit_transcript(question, transcript) if transcript else None
     except Exception as exc:
         return _fail(event, "interview.grade", exc)
     if grade:

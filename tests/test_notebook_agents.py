@@ -17,6 +17,7 @@ from fairvid.pipeline.eligibility import (
 )
 from fairvid.pipeline.explain import counterfactual
 from fairvid.pipeline.fusion import FEATURE_NAMES
+from fairvid.pipeline.grader import audit_transcript, grade_transcript
 from fairvid.pipeline.pages import concatenate_pages, document_id, group_page_files
 from fairvid.pipeline.reconcile import choose_reconciled_value, reconcile_document
 from fairvid.pipeline.scoring import ScoreModel
@@ -100,6 +101,34 @@ def test_eligibility_helpers():
         applicant_document_info="DOCS", rules_placeholder="{{BACHELOR_RULES}}",
     )
     assert filled == "Rules RULES docs DOCS"
+
+
+def test_keyword_grader_scores_random_speech_as_if_it_were_strong():
+    """The offline stand-in never reads the question, so gibberish looks fluent."""
+    question = "Explain the difference between a microcontroller and a microprocessor."
+    random_speech = "purple orbit kettle marble violin horizon cactus pebble lantern quartz"
+    grade = grade_transcript(question, random_speech)
+    assert grade["metrics"]["relevance_score"] >= 8
+    assert grade["overall_score"] >= 70
+
+
+def test_live_auditor_uses_the_model_judgement_not_the_keyword_score():
+    question = "Explain the difference between a microcontroller and a microprocessor."
+    random_speech = "purple orbit kettle marble violin horizon cactus pebble lantern quartz"
+
+    def fake_model(prompt):
+        assert question in prompt and random_speech in prompt
+        return "gemma3:4b", (
+            '{"overall_score": 12, "executive_summary": "Does not answer the question.",'
+            ' "ai_script_detection": {"is_likely_reading_llm_text": false,'
+            ' "suspicion_score": 5, "flags": [], "reasoning": "Not a script."},'
+            ' "metrics": {"relevance_score": 1, "clarity_score": 2, "structure_score": 2}}'
+        )
+
+    grade = audit_transcript(question, random_speech, generate=fake_model)
+    assert grade["backend"] == "ollama"
+    assert grade["overall_score"] == 12
+    assert grade["metrics"]["relevance_score"] == 1
 
 
 def test_empty_smile_is_a_pair_of_floats():

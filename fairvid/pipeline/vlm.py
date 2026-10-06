@@ -15,8 +15,6 @@ Run Ollama once before the demo:
 import os
 from pathlib import Path
 
-from .. import config
-
 PROMPT = ("Describe a given image clearly and in detail so that a person who "
           "cannot see it can understand it.")
 
@@ -57,22 +55,43 @@ def _offline_description(image_path: Path) -> str:
     return "A scanned document image containing printed text on a light background."
 
 
+def _response_text(response) -> str:
+    if isinstance(response, dict):
+        text = response.get("response") or ""
+    else:
+        text = getattr(response, "response", None) or ""
+    return str(text).strip()
+
+
+def _generate(model: str, prompt: str, images: list | None = None):
+    import ollama
+    kwargs = {"model": model, "prompt": prompt, "options": {"temperature": 0}}
+    if images:
+        kwargs["images"] = images
+    try:
+        return ollama.generate(**kwargs)
+    except Exception as exc:
+        if "cuda" not in str(exc).lower() and "out of memory" not in str(exc).lower():
+            raise
+        kwargs["options"] = {"temperature": 0, "num_gpu": 0}
+        return ollama.generate(**kwargs)
+
+
 def describe_image(image_path, model: str | None = None, prompt: str = PROMPT) -> dict:
     """Describe an image. Returns {backend, model, text, ok}.
 
     Tries Ollama first; on any failure returns the offline description so the
     caller never breaks.
     """
-    # Allow a faster model for live demos: export FAIRVID_VLM_MODEL=gemma3:4b
-    model = model or os.environ.get("FAIRVID_VLM_MODEL") or config.VLM_MODEL
+    model = model or os.environ.get("FAIRVID_VLM_MODEL") or "moondream"
     image_path = str(image_path)
     try:
-        import ollama
-        resp = ollama.generate(model=model, prompt=prompt, images=[image_path])
-        text = resp.get("response", "").strip()
+        text = _response_text(_generate(model, prompt, images=[image_path]))
+        if text.startswith("!!!IMAGE!!!"):
+            text = text[len("!!!IMAGE!!!"):].strip()
         if text:
             return {"backend": "ollama", "model": model, "text": text, "ok": True}
-        raise RuntimeError("empty response")
+        raise RuntimeError(f"{model} returned an empty description")
     except Exception as e:
         return {"backend": "offline", "model": "stub", "ok": False,
                 "error": str(e), "text": _offline_description(Path(image_path))}
