@@ -1,6 +1,6 @@
-# FAIR-VID prompts (Lab 1.4)
+# Admissions agent prompts (Lab 1.4)
 
-This directory holds the prompts for the FAIR-VID admissions agent. FAIR-VID is the
+This directory holds the prompts for the admissions scoring agent. The agent is the
 thesis system *Applicant Scoring Model with Explanations and Fairness Verification*,
 seen as one end-to-end AI agent.
 
